@@ -71,3 +71,5 @@ Der Surfclub ist eine familienfreundlicher Verein durch und durch. Daher hast du
 Oder lebst du mit deinem Partner gemeinsam in einer Wohnung? Nutze auch hier die Familienmitgliedschaft.
 
 Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergünstigte Einzelmitgliedschaft.
+
+subPageHeadline Vorstand
