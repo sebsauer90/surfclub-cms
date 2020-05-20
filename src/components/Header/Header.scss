@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.Header {
+  height: 6rem;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}
