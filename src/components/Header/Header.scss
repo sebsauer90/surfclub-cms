@@ -11,38 +11,37 @@
   }
 }
 
-.Navigation {
-  &__link {
-    margin-right: 3.75rem;
-    color: $colorDefault;
-    text-decoration: none;
-    transition: color .15s ease-in-out;
-
-    &:hover {
-      color: $colorPrimary;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &::after {
-      display: none;
-    }
-
-    &--active {
-      color: $colorPrimary;
-    }
-  }
-}
-
 .Social {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__icon {
     display: block;
     width: 2rem;
     height: 2rem;
     margin-left: 1rem;
+  }
+}
+
+.NavigationTrigger {
+  margin: 0 0 0 2rem;
+  padding: 0;
+  background: none;
+  border: none;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    margin-left: 3rem;
+  }
+
+  @media screen and (min-width: #{$breakpointXl}) {
+    display: none;
+  }
+
+  &__icon {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    fill: $colorSecondary;
   }
 }

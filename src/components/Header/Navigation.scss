@@ -1,0 +1,85 @@
+@import "../../styles/variables";
+
+.Navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  background: white;
+  z-index: 9;
+  transform: translate(0);
+
+  @media screen and (min-width: #{$breakpointXl}) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  &__link {
+    color: $colorDefault;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: $colorPrimary;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    @media screen and (min-width: #{$breakpointLg}) {
+      margin-right: 3.75rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &--active {
+      color: $colorPrimary;
+    }
+  }
+
+  &__item {
+    position: relative;
+
+    &:hover {
+      .SubNavigation {
+        height: auto;
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+.SubNavigation {
+  @media screen and (min-width: #{$breakpointLg}) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 0;
+    background: white;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(1rem);
+    transition: opacity .15s ease-in-out, transform .15s ease-in-out;
+  }
+
+  &__list {
+    @media screen and (min-width: #{$breakpointLg}) {
+      padding: 1rem 1.5rem 2rem;
+    }
+  }
+}

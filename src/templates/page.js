@@ -4,13 +4,16 @@ import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
+import SectionHeadline from '../components/Typo/SectionHeadline';
 import Content, { HTMLContent } from '../components/Content';
+import './page.scss';
 
 export const PageTemplate = ({
   content,
   contentComponent,
   description,
   title,
+  subPages,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -18,11 +21,11 @@ export const PageTemplate = ({
   return (
     <>
       <Stage small />
-      <section>
+      <section className="page center mb">
         {helmet || ''}
         <div className="container">
-          <h1>{title}</h1>
-          <p>{description}</p>
+          <SectionHeadline>{title}</SectionHeadline>
+          <p className="mb">{description}</p>
           <PostContent content={content} />
         </div>
       </section>

@@ -1,9 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import parseCustomBlocks from '../cms/customBlocks';
 
-export const HTMLContent = ({ content, className }) => (
-  <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
-)
+export const HTMLContent = ({ content, className }) => {
+  const finalContent = parseCustomBlocks(content);
+  return (
+    <div className={className} dangerouslySetInnerHTML={{ __html: finalContent }} />
+  );
+};
 
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>

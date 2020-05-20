@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.SectionHeadline {
+  margin-bottom: 1rem;
+
+  &__headline {
+    margin-bottom: 0;
+  }
+
+  &__seperator {
+    display: block;
+    margin: 0 auto;
+    width: 4.5rem;
+  }
+}
