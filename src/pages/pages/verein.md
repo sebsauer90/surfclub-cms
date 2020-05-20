@@ -46,7 +46,7 @@ subPages:
 
       Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergünstigte Einzelmitgliedschaft.
 ---
-subPageHeadline Mitglied
+subPageHeadline Mitglied werden
 
 ### Mitglied im Surfclub werden
 
