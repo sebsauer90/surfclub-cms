@@ -21,6 +21,22 @@ h4 {
   color: $colorSecondary;
 }
 
+h1 {
+  font-size: 3rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 4.25rem;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 3.25rem;
+  }
+}
+
 h3 {
   font-size: 1.75rem;
 }

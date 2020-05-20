@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import News from '../components/News/News';
@@ -12,9 +11,7 @@ export const IndexPageTemplate = () => (
   </div>
 );
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-};
+IndexPageTemplate.propTypes = {};
 
 const IndexPage = () => {
   return (
