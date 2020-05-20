@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.News {
+  @media screen and (min-width: #{$breakpointMd}) {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+
+  .TeaserOutlined {
+    margin: 0 0 1rem;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      min-width: calc(50% - .5rem);
+      max-width: calc(50% - .5rem);
+    }
+
+    @media screen and (min-width: #{$breakpointLg}) {
+      margin: 0 0 2rem;
+      min-width: calc(33% - 1rem);
+      max-width: calc(33% - 1rem);
+    }
+  }
+}

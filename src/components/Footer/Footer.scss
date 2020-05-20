@@ -1,0 +1,84 @@
+@import "../../styles/variables";
+
+.Footer {
+  padding-top: $marginSm;
+  padding-bottom: $marginSm;
+  background: $colorLight;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    padding-top: $marginMd;
+    padding-bottom: $marginMd;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  &__wrapper {
+    @media screen and (min-width: #{$breakpointMd}) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__column {
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: #{$breakpointLg}) {
+      min-width: 18rem;
+    }
+
+    &--logo {
+      display: none;
+
+      @media screen and (min-width: #{$breakpointLg}) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    }
+
+    &--social {
+      @media screen and (min-width: #{$breakpointMd}) {
+        text-align: right;
+      }
+
+      @media screen and (min-width: #{$breakpointLg}) {
+        text-align: center;
+      }
+    }
+  }
+
+  &__links {
+    a {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 3rem;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      justify-content: flex-end;
+    }
+
+    @media screen and (min-width: #{$breakpointLg}) {
+      justify-content: center;
+    }
+  
+    svg {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+      margin: 0 .5rem;
+      fill: $colorPrimary;
+    }
+  }
+
+  &__logo {
+    width: 5rem;
+  }
+}

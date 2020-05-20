@@ -4,6 +4,7 @@ import { withPrefix } from 'gatsby';
 import 'reset-css';
 import './Layout.scss';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import useSiteMetadata from '../SiteMetadata';
 
 function TemplateWrapper({ children }) {
@@ -31,6 +32,7 @@ function TemplateWrapper({ children }) {
 
       <Header />
       <div>{children}</div>
+      <Footer />
     </>
   )
 }

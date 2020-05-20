@@ -10,3 +10,39 @@
     height: 100%;
   }
 }
+
+.Navigation {
+  &__link {
+    margin-right: 3.75rem;
+    color: $colorDefault;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+
+    &:hover {
+      color: $colorPrimary;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    &--active {
+      color: $colorPrimary;
+    }
+  }
+}
+
+.Social {
+  display: flex;
+
+  &__icon {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.TeaserOutlined {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border: 3px solid $colorSecondary;
+  border-radius: .625rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    padding: 2.5rem 2rem;
+  }
+
+  &__headline {
+    margin: 0 0 1rem;
+  }
+
+  &__seperator {
+    display: block;
+    width: 4rem;
+    margin: 0 auto 1.5rem;
+  }
+
+  &__text {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import './Button.scss';
 
 function ButtonInterLink({ to, children }) {
   return (
