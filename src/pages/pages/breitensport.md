@@ -26,6 +26,16 @@ teaser $Die Abenteuerkiddis ab 2 Jahren$$Eltern-Kind-Turnen$$Übungsleiter: Jana
 
 teaser $Die Abenteuerkids ab 4 Jahren$$Bewegung, Spaß und Spiel $$Übungsleiterin: Jana Fricke / Asli Ötüm / Johanna Otte I Sporthalle Grundschule Hachen$
 
+teaser $Hip Hop für Mädchen von 11-13 Jahre$$$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
+
+teaser $Hip Hop für Mädchen von 8 bis 10 Jahren$$undefined$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
+
+teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$Showtanz für Mädchen ab 13 Jahre$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
+
+teaser $Flying Kids ab 6 Jahren$$Trampolinspringen für Kinder$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+
+teaser $Trampolinteens$$Trampolinspringen für Teens ab 11 Jahre$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+
 subPageHeadline Selbstbehauptung und Konfliktberatung für Jungs
 
 Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jungen gestärkt, durch Angstabbau und Stärkung ihres Selbstbewusstseins. Das Wissen um diese Stärken und das Beherrschen von Selbstverteidigungstechniken vermittelt den Jungen ein erhöhtes Selbstbewusstsein, das sie nach außen dokumentieren. Dieses lässt sie selbstsicherer und somit auch „opferuntypischer“ auftreten. Das Training soll auch zu gewaltfreier Konfliktbearbeitung befähigen und das Sozial- und Kontaktverhalten der Jungen fördern.
