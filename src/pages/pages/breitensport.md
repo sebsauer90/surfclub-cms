@@ -49,7 +49,9 @@ Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jun
 * Sich in Notsituationen entsprechend, auch mit körperlichen Mitteln, zu verteidigen.
 * Sich in Konfliktsituationen deeskalierend zu verhalten, durch Förderung der Kommunikations- und Konfliktfähigkeit
 
-TODO: Add Kurse
+teaser $Jungs mit Köpfchen 6 - 8 Jahre$$undefined$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
+
+teaser $Jungs mit Köpfchen 9 - 11 Jahre$$undefined$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
 subPageHeadline Selbstbehauptung / Selbstverteidigungsangebote für Mädchen
 
