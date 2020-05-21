@@ -22,7 +22,9 @@ Abenteuer in der Sporthalle erleben. Wir fördern die Bewegungsfreude von Kinder
 
 Alle Angebote finden in der Sporthalle der Grundschule Hachen statt.
 
-teaser $Test Test$$Test Text$
+teaser $Die Abenteuerkiddis ab 2 Jahren$$Eltern-Kind-Turnen Start: Freitag, den 10.01.2020 15.45 Uhr bis 17 Uhr Übungsleiter: Jana Fricke I Sporthalle Grundschule Hachen$
+
+teaser $Die Abenteuerkids ab 4 Jahren$$Bewegung, Spaß und Spiel Start: Freitag, den 10.01.2020 17 Uhr bis 18.15 Uhr Übungsleiterin: Jana Fricke / Asli Ötüm / Johanna Otte I Sporthalle Grundschule Hachen$
 
 subPageHeadline Selbstbehauptung und Konfliktberatung für Jungs
 
