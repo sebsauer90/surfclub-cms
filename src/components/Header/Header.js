@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import './Header.scss';
 import ButtonInterLink from '../Button/ButtonInterLink';
@@ -8,6 +8,7 @@ import BarsIcon from '../Icons/BarsIcon';
 import Navigation from './Navigation';
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   const { allMarkdownRemark: { edges }} = useStaticQuery(graphql`
     query PageNavQuery {
         allMarkdownRemark(
@@ -33,11 +34,13 @@ function Header() {
     <header className="Header">
       <div className="Header__wrapper container">
         <ButtonInterLink>Webcam</ButtonInterLink>
-        <Navigation items={edges} />
+        <Navigation isOpen={isOpen} setIsOpen={setIsOpen} items={edges} />
+
         <div className="Social">
-          <FacebookIcon className="Social__icon" />
-          <InstagramIcon className="Social__icon" />
-          <button className="NavigationTrigger">
+          <a className="Social__link" href="/facebook"><FacebookIcon className="Social__icon" /></a>
+          <a className="Social__link" href="/instagram"><InstagramIcon className="Social__icon" /></a>
+
+          <button className="NavigationTrigger" onClick={() => setIsOpen(!isOpen)}>
             <BarsIcon className="NavigationTrigger__icon" />
           </button>
         </div>

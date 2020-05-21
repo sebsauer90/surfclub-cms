@@ -33,8 +33,8 @@ function Footer() {
               <Link to="/index">Datenschutz</Link>
             </p>
             <div className="Footer__social">
-              <FacebookIcon />
-              <InstagramIcon />
+              <a className="Footer__socialLink" href="/facebook"><FacebookIcon /></a>
+              <a className="Footer__socialLink" href="/instagram"><InstagramIcon /></a>
             </div>
           </div>
           <div className="Footer__column Footer__column--logo">

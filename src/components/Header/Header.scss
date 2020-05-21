@@ -16,11 +16,25 @@
   justify-content: center;
   align-items: center;
 
+  &__link {
+    &::after {
+      display: none;
+    }
+
+    &:hover {
+      .Social__icon {
+        fill: $colorPrimary;
+      }
+    }
+  }
+
   &__icon {
     display: block;
     width: 2rem;
     height: 2rem;
     margin-left: 1rem;
+    fill: $colorSecondary;
+    transition: fill .15s ease-in-out;
   }
 }
 
@@ -29,6 +43,7 @@
   padding: 0;
   background: none;
   border: none;
+  cursor: pointer;
 
   @media screen and (min-width: #{$breakpointMd}) {
     margin-left: 3rem;
@@ -38,10 +53,17 @@
     display: none;
   }
 
+  &:hover {
+    .NavigationTrigger__icon {
+      fill: $colorPrimary;
+    }
+  }
+
   &__icon {
     display: block;
     width: 2.25rem;
     height: 2.25rem;
     fill: $colorSecondary;
+    transition: fill .15s ease-in-out;
   }
 }

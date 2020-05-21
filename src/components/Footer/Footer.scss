@@ -1,11 +1,13 @@
 @import "../../styles/variables";
 
 .Footer {
+  margin-top: 4rem;
   padding-top: $marginSm;
   padding-bottom: $marginSm;
   background: $colorLight;
 
   @media screen and (min-width: #{$breakpointMd}) {
+    margin-top: 6rem;
     padding-top: $marginMd;
     padding-bottom: $marginMd;
   }
@@ -68,17 +70,30 @@
     @media screen and (min-width: #{$breakpointLg}) {
       justify-content: center;
     }
-  
+  }
+
+  &__socialLink {
+    &::after {
+      display: none;
+    }
+
+    &:hover {
+      svg {
+        fill: $colorSecondary;
+      }
+    }
+
     svg {
       display: block;
       width: 2rem;
       height: 2rem;
       margin: 0 .5rem;
       fill: $colorPrimary;
+      transition: fill .15s ease-in-out;
     }
   }
 
   &__logo {
-    width: 5rem;
+    width: 4rem;
   }
 }

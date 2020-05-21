@@ -1,9 +1,14 @@
-@import "../../styles/variables";
+@import "./variables";
 
 body {
   font-family: $fontFamily;
-  font-size: $defaultFontSize;
+  font-size: $defaultFontSizeSm;
   line-height: 1.5;
+  hyphens: auto;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: $defaultFontSizeMd;
+  }
 }
 
 * {
@@ -26,7 +31,7 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.25rem;
 
   @media screen and (min-width: #{$breakpointMd}) {
     font-size: 4.25rem;
@@ -34,7 +39,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 
   @media screen and (min-width: #{$breakpointMd}) {
     font-size: 3.25rem;
@@ -42,7 +47,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 1.75rem;
+  }
 }
 
 h4 {
@@ -78,21 +87,6 @@ a {
       left: 15%;
       right: 15%;
     }
-  }
-}
-
-.subSectionHeadline {
-  margin-bottom: 2rem;
-
-  &::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 20px;
-    margin: 0 auto;
-    background: center no-repeat;
-    background-image: url(../../img/seperator.svg); 
-    background-size: 100%;
   }
 }
 
@@ -190,5 +184,51 @@ a {
 
   @media screen and (min-width: #{$breakpointMd}) {
     margin-bottom: 2rem;
+  }
+}
+
+// custom blocks
+
+.subSectionHeadline {
+  margin-bottom: 2rem;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 0 auto;
+    background: center no-repeat;
+    background-image: url(../img/seperator.svg); 
+    background-size: 100%;
+  }
+}
+
+.simpleTeaser {
+  max-width: 36rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border: 3px solid $colorSecondary;
+  border-radius: .625rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    padding: 1.25rem 2rem;
+  }
+
+  &__headline {
+    margin: 0 0 .5rem;
+    font-size: 1.5rem;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+
+  &__subline {
+    margin: 0;
+    color: $colorPrimary;
+    font-size: 1.125rem;
   }
 }
