@@ -18,8 +18,9 @@ Fax 03212-1089127 (ja, die Nummer stimmt)
 
 ## Der Vorstand
 
-| 1.Vorsitzender       | Meinolf Fricke     | Auf der Valstadt 2 | 59846 Sundern-Enkhausen | vorsitzender@surfclub-hachen.de  |
+| Funktion       | Kontakt     |  |  |   |
 | -------------------- | ------------------ | ------------------ | ----------------------- | -------------------------------- |
+| 1.Vorsitzender       | Meinolf Fricke     | Auf der Valstadt 2 | 59846 Sundern-Enkhausen | vorsitzender@surfclub-hachen.de  |
 | 2.Vorsitzender       | Lutz Siebeck       | Im Kaltenborn 64   | 59846 Sundern-Amecke    | vorsitzender2@surfclub-hachen.de |
 | Schriftführer        | Andreas Großkreutz | Drostestr. 5       | 59846 Sundern-Hachen    | info@surfclub-hachen.de          |
 | Kassenwartin         | Inge Britten       | Am Engelberg 33    | 59846 Sundern-Hachen    | kassenwart@surfclub-hachen.de    |
