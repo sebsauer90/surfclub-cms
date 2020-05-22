@@ -25,8 +25,10 @@ function Stage({ small }) {
 
   return (
     <div className={`Stage mb${small ? ' Stage--small' : ''}`} style={{ backgroundImage: `url(${url})` }}>
-      <div className="Stage__wrapper">
-        <img className="Stage__logo" src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
+      <div className="container">
+        <div className="Stage__wrapper">
+          <img className="Stage__logo" src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
+        </div>
       </div>
     </div>
   );

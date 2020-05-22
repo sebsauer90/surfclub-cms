@@ -45,6 +45,12 @@
     }
 
     .ArrowButton {
+      color: $colorDefault;
+
+      svg {
+        fill: $colorDefault;
+      }
+
       &:hover {
         color: white;
 

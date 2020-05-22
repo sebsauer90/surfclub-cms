@@ -37,6 +37,10 @@
     padding: 0 2rem;
     text-align: center;
 
+    &::before {
+      display: none;
+    }
+
     &:not(:last-child) {
       margin-bottom: 1rem;
     }

@@ -36,7 +36,9 @@ function Navigation({ isOpen, setIsOpen, items }) {
       hash = hash.replace('#', '');
   
       if (hash) {
-        scrollToId(hash);
+        setTimeout(() => {
+          scrollToId(hash);
+        }, 250);
       }
     }
   }, []);
