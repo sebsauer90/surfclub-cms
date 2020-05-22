@@ -86,9 +86,7 @@ Du fragst dich welche Kosten auf dich zukommen und welche Mitgliedschaftsart fü
 
 ### Anmeldeformular und Datenschutzerklärung
 
-TODO: Anmeldeformular hinzufügen
-
-Lade hier unser [](http://assets.ctfassets.net/15dngpb3uqft/2mljLuuh8Pr6I5KTvp1lih/aefd8c2e694ce30d636e1c5dada06797/Aufnahmeformular.pdf)Anmeldeformular und die Datenschutzerklärung herunter und sende uns diese dann gerne per E-Mail zu.
+Lade hier unser [Anmeldeformular](/img/aufnahmeformular.pdf) und die Datenschutzerklärung herunter und sende uns diese dann gerne per E-Mail zu.
 
 ### Bereits Mitglied?
 
