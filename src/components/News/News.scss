@@ -21,4 +21,41 @@
       max-width: calc(33% - 1rem);
     }
   }
+
+  &__box {
+    margin-bottom: -6rem;
+    padding: 3rem 0;
+    background: $colorPrimary;
+    color: white;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      padding: 5rem 0 2rem;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    .TeaserOutlined {
+      border-color: white;
+    }
+
+    .TeaserOutlined__seperator {
+      display: none;
+    }
+
+    .ArrowButton {
+      &:hover {
+        color: white;
+
+        svg {
+          fill: white;
+        }
+      }
+    }
+  }
+
+  &__headline {
+    margin-bottom: 2rem;
+  }
 }

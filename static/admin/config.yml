@@ -33,6 +33,12 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Image, name: image, widget: image}
+      - file: "src/pages/webcam.md"
+        label: "Webcam"
+        name: "webcam"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "webcam-page"}
+          - {label: "Description", name: "description", widget: "text"}
 
   - name: "pages"
     label: "Pages"

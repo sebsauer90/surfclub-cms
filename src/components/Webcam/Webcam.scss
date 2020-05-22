@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.Webcam {
+  &__image {
+    display: block;
+    width: 100%;
+    max-width: 43rem;
+    margin: 0 auto;
+    border-top: 1.5rem solid $colorLight;
+    border-bottom: 1.5rem solid $colorLight;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      border: 1.5rem solid $colorLight;
+    }
+  }
+}

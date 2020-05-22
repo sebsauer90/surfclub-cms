@@ -167,6 +167,12 @@ a {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  &__page {
+    max-width: 57.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 // margins
@@ -184,6 +190,44 @@ a {
 
   @media screen and (min-width: #{$breakpointMd}) {
     margin-bottom: 2rem;
+  }
+}
+
+// table
+
+table {
+  margin: 1rem auto 1rem;
+  text-align: left;
+
+  thead {
+    tr {
+      border-bottom: 2px solid $colorSecondary;
+
+      th {
+        padding-bottom: .25rem;
+      }
+    }
+  }
+
+  tr {
+    th,
+    td {
+      padding: .25rem 1rem 0;
+    }
+  }
+}
+
+.table {
+  &--responsive {
+    overflow-x: auto;
+    
+    table {
+      white-space: nowrap;
+
+      @media screen and (min-width: #{$breakpointMd}) {
+        white-space: initial;
+      }
+    }
   }
 }
 

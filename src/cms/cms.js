@@ -2,19 +2,17 @@ import CMS from 'netlify-cms-app';
 import uploadcare from 'netlify-cms-media-library-uploadcare';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 import urlSlug from 'url-slug';
-import AboutPagePreview from './preview-templates/AboutPagePreview';
 import BlogPostPreview from './preview-templates/BlogPostPreview';
-import ProductPagePreview from './preview-templates/ProductPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
 import PagePreview from './preview-templates/PagePreview';
+import WebcamPagePreview from './preview-templates/WebcamPagePreview';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
+CMS.registerPreviewTemplate('webcam', WebcamPagePreview);
 CMS.registerPreviewTemplate('page', PagePreview);
-CMS.registerPreviewTemplate('about', AboutPagePreview);
-CMS.registerPreviewTemplate('products', ProductPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 
 export const customBlocks = [
@@ -27,7 +25,7 @@ export const customBlocks = [
     htmlPattern: /<p>subPageHeadline (.*?)<\/p>/,
     fromBlock: function(match) {
       return {
-        headline: match[1] || '',
+        headline: !match[1] || match[1] === 'undefined' ? '' : match[1],
       };
     },
     toBlock: function(obj) {
@@ -48,9 +46,9 @@ export const customBlocks = [
     htmlPattern: /<p>teaser \$(.*)\$\$(.*)\$\$(.*)\$<\/p>/,
     fromBlock: function(match) {
       return {
-        headline: match[1] || '',
-        text: match[2] || '',
-        subline: match[3] || '',
+        headline: !match[1] || match[1] === 'undefined' ? '' : match[1],
+        text: !match[2] || match[2] === 'undefined' ? '' : match[2],
+        subline: !match[3] || match[3] === 'undefined' ? '' : match[3],
       };
     },
     toBlock: function(obj) {

@@ -1,9 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout/Layout';
+import Stage from '../components/Stage/Stage';
+import SectionHeadline from '../components/Typo/SectionHeadline';
+import Content, { HTMLContent } from '../components/Content/Content';
+import NewsBox from '../components/News/NewsBox';
 
 export const BlogPostTemplate = ({
   content,
@@ -12,23 +15,21 @@ export const BlogPostTemplate = ({
   title,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-          </div>
+    <>
+      <Stage small />
+      <section className="container__page center mb">
+        {helmet || ''}
+        <div className="container">
+          <SectionHeadline>{title}</SectionHeadline>
+          <p className="mb">{description}</p>
+          <PostContent content={content} />
         </div>
-      </div>
-    </section>
+      </section>
+      <NewsBox />
+    </>
   )
 }
 
@@ -38,10 +39,10 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-}
+};
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -50,7 +51,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Surfclub Hachen-Sorpesee e.V.">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -61,16 +62,16 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
       />
     </Layout>
-  )
-}
+  );
+};
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
-}
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -84,4 +85,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

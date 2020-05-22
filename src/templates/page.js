@@ -5,15 +5,13 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
 import SectionHeadline from '../components/Typo/SectionHeadline';
-import Content, { HTMLContent } from '../components/Content';
-import './page.scss';
+import Content, { HTMLContent } from '../components/Content/Content';
 
 export const PageTemplate = ({
   content,
   contentComponent,
   description,
   title,
-  subPages,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -21,7 +19,7 @@ export const PageTemplate = ({
   return (
     <>
       <Stage small />
-      <section className="page center mb">
+      <section className="container__page center mb">
         {helmet || ''}
         <div className="container">
           <SectionHeadline>{title}</SectionHeadline>
@@ -51,7 +49,7 @@ const Page = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Surfclub Hachen-Sorpesee e.V.">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"

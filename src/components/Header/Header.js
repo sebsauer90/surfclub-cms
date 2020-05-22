@@ -33,7 +33,7 @@ function Header() {
   return (
     <header className="Header">
       <div className="Header__wrapper container">
-        <ButtonInterLink>Webcam</ButtonInterLink>
+        <ButtonInterLink to="/webcam">Webcam</ButtonInterLink>
         <Navigation isOpen={isOpen} setIsOpen={setIsOpen} items={edges} />
 
         <div className="Social">
