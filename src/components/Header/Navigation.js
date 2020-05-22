@@ -24,6 +24,7 @@ function Navigation({ isOpen, setIsOpen, items }) {
       if (pathName.includes(page)) {
         event.preventDefault();
         scrollToId(id);
+        setIsOpen(false);
       }
     }
   };

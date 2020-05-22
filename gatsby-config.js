@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    title: 'Surfclub Hachen-Sorpesee e.V.',
+    description: 'Der Surfclub Hachen-Sorpesee e.V. bietet seinen Mitgliedern ein Vereinsheim direkt am Sorpesee in Sundern-Langscheid / Sauerland. Liegewiese, Umkleiden, Vereinsboards werden ebenso geboten, wie ein interessanter Terminkalender.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

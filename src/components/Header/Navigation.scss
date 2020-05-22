@@ -20,6 +20,11 @@
   &--isOpen {
     opacity: 1;
     left: 0;
+
+    .Navigation__wrapper {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
   @media screen and (min-width: #{$breakpointXl}) {
@@ -39,11 +44,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    transform: translateY(2rem);
+    opacity: 0;
+    transition: transform .15s ease-out, opacity .15s ease-out;
+    transition-delay: .15s;
 
     @media screen and (min-width: #{$breakpointXl}) {
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      transform: translateY(0);
+      opacity: 1;
     }
   }
 

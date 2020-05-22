@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import InstagramIcon from '../Icons/InstagramIcon';
-import FacebookIcon from '../Icons/FacebookIcon';
+// import FacebookIcon from '../Icons/FacebookIcon';
 import logo from '../../img/logo-surfer.svg';
 import './Footer.scss';
 

@@ -4,11 +4,13 @@ import { PageTemplate } from '../../templates/page';
 
 const PagePreview = ({ entry, widgetFor }) => {
   return (
-    <PageTemplate
-      title={entry.getIn(['data', 'title'])}
-      description={entry.getIn(['data', 'description'])}
-      content={widgetFor('body')}
-    />
+    <div className="center">
+      <PageTemplate
+        title={entry.getIn(['data', 'title'])}
+        description={entry.getIn(['data', 'description'])}
+        content={widgetFor('body')}
+      />
+    </div>
   )
 };
 

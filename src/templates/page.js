@@ -24,7 +24,7 @@ export const PageTemplate = ({
       <section className="container__page center mb">
         <div className="container">
           <SectionHeadline>{title}</SectionHeadline>
-          <p className="mb">{description}</p>
+          {description && (<p className="mb">{description}</p>)}
           <PostContent content={content} />
         </div>
       </section>

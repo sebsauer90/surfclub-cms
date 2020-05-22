@@ -12,7 +12,7 @@ CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('webcam', WebcamPagePreview);
-CMS.registerPreviewTemplate('page', PagePreview);
+CMS.registerPreviewTemplate('pages', PagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 
 customBlocks.forEach((block) => {

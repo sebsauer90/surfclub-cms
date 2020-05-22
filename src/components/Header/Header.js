@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import './Header.scss';
 import ButtonInterLink from '../Button/ButtonInterLink';
 import InstagramIcon from '../Icons/InstagramIcon';
-import FacebookIcon from '../Icons/FacebookIcon';
+// import FacebookIcon from '../Icons/FacebookIcon';
 import BarsIcon from '../Icons/BarsIcon';
 import Navigation from './Navigation';
 
@@ -12,6 +12,7 @@ function Header() {
   const { allMarkdownRemark: { edges }} = useStaticQuery(graphql`
     query PageNavQuery {
         allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___order] }
           filter: { frontmatter: { templateKey: { eq: "page" } } }
         ) {
           edges {
