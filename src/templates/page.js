@@ -31,7 +31,7 @@ export const PageTemplate = ({
         {teaser && teaser.length > 0 && (
           <TeaserBlock items={teaser} />
         )}
-        <div className="container container__page center mb">
+        <div className="container container__page mb">
           <PostContent content={content} />
         </div>
       </section>

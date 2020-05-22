@@ -6,6 +6,7 @@ import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
 import SectionHeadline from '../components/Typo/SectionHeadline';
 import WebcamView from '../components/Webcam/Webcam';
+import NewsBox from '../components/News/NewsBox';
 
 export const WebcamPageTemplate = ({ description }) => {
   return (
@@ -26,6 +27,7 @@ export const WebcamPageTemplate = ({ description }) => {
           <WebcamView />
         </div>
       </section>
+      <NewsBox />
     </>
   )
 };

@@ -20,9 +20,11 @@ export const ImprintPageTemplate = ({
       {helmet || ''}
 
       <Stage small />
-      <section className="container__page center mb">
-        <div className="container">
+      <section className="container__page mb">
+        <div className="container center">
           <SectionHeadline>{title}</SectionHeadline>
+        </div>
+        <div className="container imprint">
           <PostContent content={content} />
         </div>
       </section>

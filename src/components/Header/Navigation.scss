@@ -42,8 +42,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     transform: translateY(2rem);
     opacity: 0;
     transition: transform .15s ease-out, opacity .15s ease-out;
@@ -99,7 +97,7 @@
         .SubNavigation {
           height: auto;
           opacity: 1;
-          transform: translate(-50%, 0);
+          transform: translate(0, 0);
         }
       }
     }
@@ -143,14 +141,14 @@
   @media screen and (min-width: #{$breakpointXl}) {
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: -1.5rem;
     height: 0;
-    min-width: 22rem;
+    min-width: 20rem;
     background: white;
     opacity: 0;
     overflow: hidden;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .125);
-    transform: translate(-50%, 1rem);
+    transform: translate(0, 1rem);
     transition: opacity .15s ease-in-out, transform .15s ease-in-out;
       
     &::after {
