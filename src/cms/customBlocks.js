@@ -1,20 +1,22 @@
 import urlSlug from 'url-slug';
 import { customBlocks } from './cms';
 
-customBlocks.push({
-  id: 'table',
-  htmlPattern: /<table>((.|\n)*)<\/table>/,
-  fromBlock: function(match) {
-    return {
-      table: !match[1] || match[1] === 'undefined' ? '' : match[1],
-    };
-  },
-  toPreview: function(obj) {
-    return (
-      '<div class="table--responsive"><table class="table">' + obj.table + '</table></div>'
-    );
-  }
-});
+if (customBlocks) {
+  customBlocks.push({
+    id: 'table',
+    htmlPattern: /<table>((.|\n)*)<\/table>/,
+    fromBlock: function(match) {
+      return {
+        table: !match[1] || match[1] === 'undefined' ? '' : match[1],
+      };
+    },
+    toPreview: function(obj) {
+      return (
+        '<div class="table--responsive"><table class="table">' + obj.table + '</table></div>'
+      );
+    }
+  });
+}
 
 function parseCustomBlocks(body) {
   let returnValue = body;
