@@ -45,6 +45,7 @@ subPages:
 
 
       Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergünstigte Einzelmitgliedschaft.
+order: 8
 ---
 subPageHeadline Mitglied werden
 
