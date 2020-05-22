@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
+import TeaserBlock from '../components/Teaser/TeaserBlock';
 import SectionHeadline from '../components/Typo/SectionHeadline';
 import Content, { HTMLContent } from '../components/Content/Content';
 
@@ -11,6 +12,7 @@ export const PageTemplate = ({
   content,
   contentComponent,
   description,
+  teaser,
   title,
   helmet,
 }) => {
@@ -21,10 +23,15 @@ export const PageTemplate = ({
       {helmet || ''}
 
       <Stage small />
-      <section className="container__page center mb">
-        <div className="container">
+      <section className="mb">
+        <div className="container container__page center mb">
           <SectionHeadline>{title}</SectionHeadline>
           {description && (<p className="mb">{description}</p>)}
+        </div>
+        {teaser && teaser.length > 0 && (
+          <TeaserBlock items={teaser} />
+        )}
+        <div className="container container__page center mb">
           <PostContent content={content} />
         </div>
       </section>
@@ -49,6 +56,7 @@ const Page = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        teaser={post.frontmatter.teaser}
         title={post.frontmatter.title}
         helmet={
           <Helmet titleTemplate="%s | Surfclub Hachen-Sorpesee e.V.">
@@ -80,6 +88,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        teaser {
+          text
+          title
+        }
       }
     }
   }
