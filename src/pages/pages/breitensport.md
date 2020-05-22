@@ -65,18 +65,38 @@ Die Mädchen sollen lernen Grenzen zu setzen und diese durch ein „NEIN “ auc
 
 Im Rahmen der Angebote wird immer ein Elternabend in Zusammenarbeit mit dem Jugendbüro der Stadt Sundern und dem Kriminalkommissariat Vorbeugung Meschede angeboten. Angeleitet werden alle Angebote von der lizenzierten SV/SB Trainerin LSB/NRW Dorothee Fricke.
 
-TODO: Add Kurse
+teaser $Starke Mädchen 6 - 8 Jahre$$undefined$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+
+teaser $Starke Mädchen 9 - 11 Jahre$$undefined$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+
+teaser $Starke Mädchen 12 - 14 Jahre$$undefined$$Termin: Samstag/Sonntag n.n. 10 Uhr bis 15 Uhr Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
 subPageHeadline Bewegungsangebote für Erwachsene
 
 ### Only for her
 
-TODO: Add Kurse
+teaser $Fit mit Fun$$Aerobicvariationen und Bodyforming für Frauen$$Übungsleiterin: Dorothee Fricke I Sporthalle Grundschule Hachen$
+
+teaser $Aquafitness$$Wassergymnastik für Frauen. Flach- und Tiefenwassertraining$$Übungsleiterin: Anja Lübke I Lehrschwimmbecken Hachen$
+
+teaser $Fit und vital - Aktives Training für die ältere Frau$$Moderates Fitnesstraining für ältere Frauen$$Übungsleiterin: Meike Werthschulte / Angelika Dorin I Sporthalle Grundschule Hachen$
+
+teaser $Starke Frauen$$Selbstbehauptung/Selbstverteidigung für Frauen$$undefined$
 
 ### For him and her
 
-TODO: Add Kurse
+teaser $Fit for Ski für Sie und Ihn$$Skigymnastik für Sie und Ihn$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+
+teaser $Functional Gym$$Konditions-, Koordinations- und Kräftigungsgymnastik für Sie und Ihn$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+
+teaser $Ü50-Fit und aktiv im Wasser$$Wassergymnastik für Sie und Ihn$$Übungsleiterin: Annelie Löhr I Lehrschwimmbecken Hachen$
+
+teaser $Nordic Walking für Anfänger$$Einführung in das Nordic Walking$$Übungsleiterin: Martina Lübke I Treffen am Parkplatz Goldbach in Tiefenhagen$
+
+teaser $Laufen im Team$$Der Lauftreff für Fortgeschrittene$$Vereinsgelände am Sorpesee$
 
 ### Members only
 
-TODO: Add Kurse
+teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$undefined$
+
+teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$undefined$
