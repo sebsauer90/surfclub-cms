@@ -8,7 +8,7 @@ function Navigation({ isOpen, setIsOpen, items }) {
   const scrollToId = (id) => {
     const node = document.getElementById(id);
   
-    if (node) {
+    if (typeof window !== 'undefined' && node) {
       const top = node.getBoundingClientRect().top;
       window.scroll({
         top, 
@@ -19,15 +19,17 @@ function Navigation({ isOpen, setIsOpen, items }) {
   };
 
   const handleSublinkClick = (event, page, id) => {
-    const pathName = window.location.pathname;
-    if (pathName.includes(page)) {
-      event.preventDefault();
-      scrollToId(id);
+    if (typeof window !== 'undefined') {
+      const pathName = window.location.pathname;
+      if (pathName.includes(page)) {
+        event.preventDefault();
+        scrollToId(id);
+      }
     }
   };
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       let hash = window.location.hash;
       hash = hash.replace('#/', '');
       hash = hash.replace('#', '');
