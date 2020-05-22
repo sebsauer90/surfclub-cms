@@ -76,7 +76,13 @@ Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergüns
 
 Du fragst dich welche Kosten auf dich zukommen und welche Mitgliedschaftsart für dich in Frage kommt? Finde hier alle Kosten auf einen Blick:
 
-TODO: Kosten hinzufügen
+| Mitgliedschaft               | Mitgliedsbeitrag | Aufnahmegebühr (einmalig) |
+| ---------------------------- | ---------------- | ------------------------- |
+| Familie                      | 95 €/a.          | 205 €                     |
+| Einzelmitglied               | 75 €/a.          | 178 €                     |
+| Schüler, Studenten und Azubi | 38 €/a.          | 77 €                      |
+
+
 
 ### Anmeldeformular und Datenschutzerklärung
 
@@ -94,4 +100,20 @@ Lass uns dir gratulieren und die neue Surfer-Generation mit in die Mitgliederlis
 
 subPageHeadline Vorstand
 
-TODO: Vorstand hinzufügen
+teaser $Meinolf Fricke$$$$1. Vorsitzender$
+
+teaser $Lutz Siebeck$$undefined$$2. Vorsitzender$
+
+teaser $Andreas Großkreutz$$undefined$$Schriftführer$
+
+teaser $Inge Britten$$undefined$$Kassenwartin$
+
+teaser $Dorothee Fricke$$undefined$$Breitensportwartin$
+
+teaser $Lucas Großkreutz$$undefined$$Jugendleiter$
+
+teaser $Anja Lübke$$undefined$$erweiterter Vorstand$
+
+teaser $Andreas Zimmny$$undefined$$erweiterter Vorstand$
+
+teaser $Yannik Fricke$$undefined$$erweiterter Vorstand$
