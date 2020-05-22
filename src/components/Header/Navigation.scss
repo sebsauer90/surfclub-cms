@@ -168,9 +168,19 @@
 
   &__item {
     margin-top: .5rem;
+    padding-left: 0;
+
+    &::before {
+      display: none;
+    }
 
     @media screen and (min-width: #{$breakpointXl}) {
       margin-top: 1rem;
+      padding-left: 2rem;
+
+      &::before {
+        display: block;
+      }
     }
   }
 
