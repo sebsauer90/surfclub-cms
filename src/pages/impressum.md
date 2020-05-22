@@ -18,7 +18,7 @@ Fax 03212-1089127 (ja, die Nummer stimmt)
 
 ## Der Vorstand
 
-| Funktion       | Kontakt     |  |  |   |
+| Funktion             | Kontakt            |                    |                         |                                  |
 | -------------------- | ------------------ | ------------------ | ----------------------- | -------------------------------- |
 | 1.Vorsitzender       | Meinolf Fricke     | Auf der Valstadt 2 | 59846 Sundern-Enkhausen | vorsitzender@surfclub-hachen.de  |
 | 2.Vorsitzender       | Lutz Siebeck       | Im Kaltenborn 64   | 59846 Sundern-Amecke    | vorsitzender2@surfclub-hachen.de |
@@ -32,9 +32,10 @@ Fax 03212-1089127 (ja, die Nummer stimmt)
 
 
 
-Vertretungsberechtigter Vorstand: 1.Vorsitzender, 2.Vorsitzender, Kassenwart, Schriftführer, Breitensportwart (siehe oben)\
+**Vertretungsberechtigter Vorstand:**\
+1.Vorsitzender, 2.Vorsitzender, Kassenwart, Schriftführer, Breitensportwart (siehe oben)
 Registergericht: Amtsgericht Arnsberg\
-Registernummer: VR 577\
+Registernummer: VR 577
+
 Verantwortlich für den Webauftritt: Andreas Großkreutz\
-Haftungshinweis: Trotz sorfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte
-externer Links. Für den Inhalt der verlinkten Seiten ist ausschließlich deren Betreiber verantwortlich.
+Haftungshinweis: Trotz sorfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten ist ausschließlich deren Betreiber verantwortlich.
