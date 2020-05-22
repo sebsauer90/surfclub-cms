@@ -6,14 +6,6 @@ description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
   magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
   ultricies nec, pellentesque eu, pretium quis, sem.
 ---
-subPageHeadline Breitensporttermine
-
-TODO: Add Kalender
-
-subPageHeadline ÜbungsleiterInnen
-
-TODO: Add ÜbungsleiterInnen
-
 subPageHeadline Sport und Spiel für Kids
 
 „Ich möchte klettern, springen, schaukeln, oder rutschen.“
@@ -28,7 +20,7 @@ teaser $Die Abenteuerkids ab 4 Jahren$$Bewegung, Spaß und Spiel $$Übungsleiter
 
 teaser $Hip Hop für Mädchen von 11-13 Jahre$$$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
-teaser $Hip Hop für Mädchen von 8 bis 10 Jahren$$undefined$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
+teaser $Hip Hop für Mädchen von 8 bis 10 Jahren$$$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
 teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$Showtanz für Mädchen ab 13 Jahre$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
 
@@ -49,9 +41,9 @@ Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jun
 * Sich in Notsituationen entsprechend, auch mit körperlichen Mitteln, zu verteidigen.
 * Sich in Konfliktsituationen deeskalierend zu verhalten, durch Förderung der Kommunikations- und Konfliktfähigkeit
 
-teaser $Jungs mit Köpfchen 6 - 8 Jahre$$undefined$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
+teaser $Jungs mit Köpfchen 6 - 8 Jahre$$$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
-teaser $Jungs mit Köpfchen 9 - 11 Jahre$$undefined$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
+teaser $Jungs mit Köpfchen 9 - 11 Jahre$$$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
 subPageHeadline Selbstbehauptung / Selbstverteidigungsangebote für Mädchen
 
@@ -65,11 +57,11 @@ Die Mädchen sollen lernen Grenzen zu setzen und diese durch ein „NEIN “ auc
 
 Im Rahmen der Angebote wird immer ein Elternabend in Zusammenarbeit mit dem Jugendbüro der Stadt Sundern und dem Kriminalkommissariat Vorbeugung Meschede angeboten. Angeleitet werden alle Angebote von der lizenzierten SV/SB Trainerin LSB/NRW Dorothee Fricke.
 
-teaser $Starke Mädchen 6 - 8 Jahre$$undefined$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen 6 - 8 Jahre$$$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
-teaser $Starke Mädchen 9 - 11 Jahre$$undefined$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen 9 - 11 Jahre$$$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
-teaser $Starke Mädchen 12 - 14 Jahre$$undefined$$Termin: Samstag/Sonntag n.n. 10 Uhr bis 15 Uhr Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen 12 - 14 Jahre$$$$Termin: Samstag/Sonntag n.n. 10 Uhr bis 15 Uhr Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
 subPageHeadline Bewegungsangebote für Erwachsene
 
@@ -81,7 +73,7 @@ teaser $Aquafitness$$Wassergymnastik für Frauen. Flach- und Tiefenwassertrainin
 
 teaser $Fit und vital - Aktives Training für die ältere Frau$$Moderates Fitnesstraining für ältere Frauen$$Übungsleiterin: Meike Werthschulte / Angelika Dorin I Sporthalle Grundschule Hachen$
 
-teaser $Starke Frauen$$Selbstbehauptung/Selbstverteidigung für Frauen$$undefined$
+teaser $Starke Frauen$$Selbstbehauptung/Selbstverteidigung für Frauen$$$
 
 ### For him and her
 
@@ -97,6 +89,6 @@ teaser $Laufen im Team$$Der Lauftreff für Fortgeschrittene$$Vereinsgelände am 
 
 ### Members only
 
-teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$undefined$
+teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$$
 
-teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$undefined$
+teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$$
