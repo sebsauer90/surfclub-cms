@@ -45,6 +45,16 @@ subPages:
 
 
       Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergünstigte Einzelmitgliedschaft.
+teaser:
+  - title: 1500+ Mitglieder
+    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. "
+  - title: 25+ Kurse
+    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. "
+  - title: Gegründet 1984
+    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. "
 order: 8
 ---
 subPageHeadline Mitglied werden
