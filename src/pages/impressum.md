@@ -1,4 +1,5 @@
 ---
+templateKey: imprint-page
 title: Impressum
 ---
 ## Surfclub Hachen-Sorpesee e.V.

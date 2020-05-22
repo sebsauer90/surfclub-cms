@@ -7,10 +7,9 @@ import Stage from '../components/Stage/Stage';
 import SectionHeadline from '../components/Typo/SectionHeadline';
 import Content, { HTMLContent } from '../components/Content/Content';
 
-export const PageTemplate = ({
+export const ImprintPageTemplate = ({
   content,
   contentComponent,
-  description,
   title,
   helmet,
 }) => {
@@ -24,7 +23,6 @@ export const PageTemplate = ({
       <section className="container__page center mb">
         <div className="container">
           <SectionHeadline>{title}</SectionHeadline>
-          <p className="mb">{description}</p>
           <PostContent content={content} />
         </div>
       </section>
@@ -32,54 +30,41 @@ export const PageTemplate = ({
   )
 };
 
-PageTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
+ImprintPageTemplate.propTypes = {
   description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
 };
 
-const Page = ({ data }) => {
+const ImprintPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <PageTemplate
+      <ImprintPageTemplate
+        title={post.frontmatter.title}
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
-        title={post.frontmatter.title}
         helmet={
           <Helmet titleTemplate="%s | Surfclub Hachen-Sorpesee e.V.">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
           </Helmet>
         }
       />
     </Layout>
   )
-};
+}
 
-Page.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-};
+ImprintPage.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
-export default Page;
+export default ImprintPage;
 
-export const pageQuery = graphql`
-  query PagePostByID($id: String!) {
+export const imprintPageQuery = graphql`
+  query ImprintPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
       html
       frontmatter {
         title
-        description
       }
     }
   }

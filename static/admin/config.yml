@@ -39,6 +39,20 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "webcam-page"}
           - {label: "Description", name: "description", widget: "text"}
+      - file: "src/pages/datenschutz.md"
+        label: "Datenschutz"
+        name: "datenschutz"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "imprint-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+      - file: "src/pages/impressum.md"
+        label: "Impressum"
+        name: "impressum"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "imprint-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "pages"
     label: "Pages"

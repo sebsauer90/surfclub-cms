@@ -29,8 +29,8 @@ function Footer() {
               <a href="mailto:info@surfclub-hachen.de">info@surfclub-hachen.de</a>
             </p>
             <p className="Footer__links">
-              <Link to="/index">Impressum</Link><br />
-              <Link to="/index">Datenschutz</Link>
+              <Link to="/impressum">Impressum</Link><br />
+              <Link to="/datenschutz">Datenschutz</Link>
             </p>
             <div className="Footer__social">
               <a className="Footer__socialLink" href="/facebook"><FacebookIcon /></a>
