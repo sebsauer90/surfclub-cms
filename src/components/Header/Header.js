@@ -37,8 +37,8 @@ function Header() {
         <Navigation isOpen={isOpen} setIsOpen={setIsOpen} items={edges} />
 
         <div className="Social">
-          <a className="Social__link" href="/facebook"><FacebookIcon className="Social__icon" /></a>
-          <a className="Social__link" href="/instagram"><InstagramIcon className="Social__icon" /></a>
+          {/* <a className="Social__link" href="#"><FacebookIcon className="Social__icon" /></a> */}
+          <a className="Social__link" href="https://www.instagram.com/surfclub_hachen_sorpesee/?hl=de"><InstagramIcon className="Social__icon" /></a>
 
           <button className="NavigationTrigger" onClick={() => setIsOpen(!isOpen)}>
             <BarsIcon className="NavigationTrigger__icon" />

@@ -33,8 +33,8 @@ function Footer() {
               <Link to="/datenschutz">Datenschutz</Link>
             </p>
             <div className="Footer__social">
-              <a className="Footer__socialLink" href="/facebook"><FacebookIcon /></a>
-              <a className="Footer__socialLink" href="/instagram"><InstagramIcon /></a>
+              {/* <a className="Footer__socialLink" href="/facebook"><FacebookIcon /></a> */}
+              <a className="Footer__socialLink" href="https://www.instagram.com/surfclub_hachen_sorpesee/?hl=de"><InstagramIcon /></a>
             </div>
           </div>
           <div className="Footer__column Footer__column--logo">
