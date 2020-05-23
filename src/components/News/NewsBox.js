@@ -6,7 +6,7 @@ function NewsBox() {
     <div className="News__box">
       <div className="container">
         <h3 className="News__headline center">Weitere Neuigkeiten</h3>
-        <News />
+        <News limit={3} />
       </div>
     </div>
   );

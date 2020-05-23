@@ -71,3 +71,13 @@ collections:
           - {label: "Text", name: "text", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Order", name: "order", widget: "number", valueType: "int", default: 1}
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/settings/index.md"
+        label: "Page"
+        name: "settings"
+        fields:
+          - {label: "Footer Text", name: "footer", widget: "markdown"}
+          

@@ -1,0 +1,57 @@
+body {
+  font-family: $fontFamily;
+  font-size: $defaultFontSizeSm;
+  line-height: 1.5;
+  hyphens: auto;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: $defaultFontSizeMd;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// container
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 76.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  &__page {
+    max-width: 57.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// margins
+
+.mb {
+  margin-bottom: $marginSm;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    margin-bottom: $marginMd;
+  }
+}
+
+.mb-sm {
+  margin-bottom: 1.5rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    margin-bottom: 2rem;
+  }
+}
+
+.center {
+  text-align: center;
+}

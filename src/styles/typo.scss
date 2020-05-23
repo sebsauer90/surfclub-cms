@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 1rem;
+  font-weight: 500;
+  color: $colorSecondary;
+
+  &:not(:first-child) {
+    margin-top: 3rem;
+  }
+}
+
+h1 {
+  font-size: 2.25rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 4.25rem;
+  }
+}
+
+h2 {
+  font-size: 1.75rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 3.25rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  color: $colorSecondary;
+  text-decoration: none;
+  transition: color .15s ease-in-out;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: $colorPrimary;
+    transition: left .15s ease-in-out, right .15s ease-in-out;
+  }
+
+  &:hover {
+    color: $colorPrimary;
+
+    &::after {
+      left: 15%;
+      right: 15%;
+    }
+  }
+}
+
+ul,
+ol {
+  li {
+    position: relative;
+    margin-bottom: .25rem;
+    padding-left: 2rem;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 10px;
+      position: absolute;
+      top: .75rem;
+      left: 0;
+      background: center no-repeat;
+      background-image: url(../img/seperator.svg); 
+      background-size: 100%;
+    }
+  }
+}

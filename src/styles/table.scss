@@ -1,0 +1,70 @@
+table {
+  margin: 1rem auto 2rem;
+  text-align: left;
+
+  thead {
+    tr {
+      th {
+        padding-bottom: .75rem;
+        color: $colorSecondary;
+      }
+    }
+  }
+
+  tr {
+    th,
+    td {
+      padding: .25rem 1rem 0;
+      font-size: 1.125rem;
+
+      @media screen and (min-width: #{$breakpointMd}) {
+        padding: .25rem 2rem 0;
+      }
+    }
+  }
+}
+
+.table {
+  &--responsive {
+    margin: 1rem auto 2rem;
+    padding: 1rem 0;
+    overflow-x: auto;
+    background: $colorLight;
+    
+    table {
+      min-width: 100%;
+      white-space: nowrap;
+      margin: 0;
+
+      @media screen and (min-width: #{$breakpointMd}) {
+        white-space: initial;
+      }
+    }
+  }
+}
+
+.imprint table {
+  thead {
+    tr {
+      th {
+        padding-bottom: .75rem;
+      }
+    }
+  }
+
+  tr {
+    th,
+    td {
+      padding: .25rem 0 0 .75rem;
+      font-size: .9375rem;
+
+      @media screen and (min-width: #{$breakpointMd}) {
+        padding: .25rem 0 0 .75rem;
+      }
+    }
+
+    TH {
+      font-size: 1.125rem;
+    }
+  }
+}

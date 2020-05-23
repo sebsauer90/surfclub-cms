@@ -1,0 +1,43 @@
+.subSectionHeadline {
+  margin-bottom: 2rem;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 0;
+    background: center no-repeat;
+    background-image: url(../img/seperator.svg); 
+    background-size: 100%;
+  }
+}
+
+.simpleTeaser {
+  max-width: 36rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border: 3px solid $colorSecondary;
+  border-radius: .625rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    padding: 1.25rem 2rem;
+  }
+
+  &__headline {
+    margin: 0 0 .5rem;
+    font-size: 1.5rem;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+
+  &__subline {
+    margin: 0;
+    color: $colorPrimary;
+    font-size: 1.125rem;
+  }
+}

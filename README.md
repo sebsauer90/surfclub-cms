@@ -1,10 +1,7 @@
 Todos:
-* Fix Subnavigation scroll to
 * Webacm Spinner
-* List, Quote styling
-* Teaser
+* Quote styling
 * Images (Slider)
 * Kalender
 * Favicon
 * Analytics
-* Content Teaser
