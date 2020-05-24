@@ -79,5 +79,6 @@ collections:
         label: "Page"
         name: "settings"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-settings"}
           - {label: "Footer Text", name: "footer", widget: "markdown"}
           

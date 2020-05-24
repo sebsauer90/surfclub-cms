@@ -1,0 +1,8 @@
+{
+  "name": "gatsby-custom-blocks",
+  "description": "Example Gatsby, and Netlify CMS project",
+  "version": "1.0.0",
+  "author": "Sebastian Sauer",
+  "license": "MIT",
+  "main": "./index.js"
+}
