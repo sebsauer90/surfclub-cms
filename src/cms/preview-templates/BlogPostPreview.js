@@ -5,6 +5,7 @@ import { BlogPostTemplate } from '../../templates/blog-post'
 const BlogPostPreview = ({ entry, widgetFor }) => {
   return (
     <BlogPostTemplate
+      id={entry.getIn(['data', 'id'])}
       content={widgetFor('body')}
       description={entry.getIn(['data', 'description'])}
       title={entry.getIn(['data', 'title'])}

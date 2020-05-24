@@ -4,21 +4,22 @@
   @media screen and (min-width: #{$breakpointMd}) {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0 -1rem;
   }
 
   .TeaserOutlined {
     margin: 0 0 1rem;
 
     @media screen and (min-width: #{$breakpointMd}) {
-      min-width: calc(50% - .5rem);
-      max-width: calc(50% - .5rem);
+      min-width: calc(50% - 2rem);
+      max-width: calc(50% - 2rem);
+      margin: 0 1rem 2rem;
     }
 
     @media screen and (min-width: #{$breakpointLg}) {
-      margin: 0 0 2rem;
-      min-width: calc(33% - 1rem);
-      max-width: calc(33% - 1rem);
+      min-width: calc(33% - 2rem);
+      max-width: calc(33% - 2rem);
     }
   }
 

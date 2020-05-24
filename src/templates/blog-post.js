@@ -9,6 +9,7 @@ import Content, { HTMLContent } from '../components/Content/Content';
 import NewsBox from '../components/News/NewsBox';
 
 export const BlogPostTemplate = ({
+  id,
   content,
   contentComponent,
   description,
@@ -28,7 +29,7 @@ export const BlogPostTemplate = ({
           <PostContent content={content} />
         </div>
       </section>
-      <NewsBox />
+      <NewsBox currentId={id} />
     </>
   )
 }
@@ -47,6 +48,7 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <BlogPostTemplate
+        id={post.id}
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}

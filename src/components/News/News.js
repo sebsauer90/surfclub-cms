@@ -4,9 +4,11 @@ import { graphql, StaticQuery } from 'gatsby';
 import TeaserOutlined from '../Teaser/TeaserOutlined';
 import './News.scss';
 
-function News({ data, limit }) {
+function News(props) {
+  const { data, limit, currentId } = props;
   const { edges: posts } = data.allMarkdownRemark;
-  const renderItems = limit && posts ? posts.slice(0, limit) : posts;
+  let renderItems = limit && posts ? posts.slice(0, limit) : posts;
+  renderItems = renderItems.filter((item) => currentId ? item.node.id !== currentId : true);
 
   return (
     <div className="container mb">
@@ -33,7 +35,7 @@ News.propTypes = {
   }),
 };
 
-export default ({ limit }) => (
+export default ({ limit, currentId }) => (
   <StaticQuery
     query={graphql`
       query NewsQuery {
@@ -57,6 +59,6 @@ export default ({ limit }) => (
         }
       }
     `}
-    render={(data, count) => <News data={data} count={count} limit={limit} />}
+    render={(data, count) => <News data={data} count={count} limit={limit} currentId={currentId} />}
   />
 )
