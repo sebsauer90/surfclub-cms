@@ -1,10 +1,9 @@
 import urlSlug from 'url-slug';
-// import { customBlocks } from './cms';
 
 export const customBlocks = [
+  // anchor
   {
     id: 'anchor',
-    // Visible label
     label: 'Anchor',
     fields: [{name: 'headline', label: 'Headline', widget: 'string'}],
     pattern: /^[^\n\r]*subPageHeadline ([^\n\r]*)$/,
@@ -25,6 +24,8 @@ export const customBlocks = [
       );
     }
   },
+
+  // teaser
   {
     id: 'teaser',
     label: 'Teaser',
@@ -55,9 +56,45 @@ export const customBlocks = [
       );
     }
   },
+
+  // youtube
+  {
+    id: 'youtube',
+    label: 'Youtube',
+    fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
+    pattern: /^youtube (\S+)$/,
+    htmlPattern: /<p>youtube (.*?)<\/p>/,
+    fromBlock: function(match) {
+      return {
+        id: match[1]
+      };
+    },
+    toBlock: function(obj) {
+      return 'youtube ' + obj.id;
+    },
+    toPreview: function(obj) {
+      // <img src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" alt="Youtube Video"/>
+      return (
+        `<div class="youtube">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/${obj.id}"
+            frameborder="0"
+            allow="accelerometer;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>`
+      );
+    }
+  },
 ];
 
 const htmlBlocks = [
+  // table
   {
     id: 'table',
     htmlPattern: /<table>((.|\n)*)<\/table>/,

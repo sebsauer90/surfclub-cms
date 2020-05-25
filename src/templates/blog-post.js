@@ -20,12 +20,15 @@ export const BlogPostTemplate = ({
 
   return (
     <>
+      {helmet || ''}
+
       <Stage small />
-      <section className="container__page center mb">
-        {helmet || ''}
-        <div className="container">
+      <section className="container__page mb">
+        <div className="container center mb">
           <SectionHeadline>{title}</SectionHeadline>
-          <p className="mb">{description}</p>
+          <p>{description}</p>
+        </div>
+        <div className="container">
           <PostContent content={content} />
         </div>
       </section>

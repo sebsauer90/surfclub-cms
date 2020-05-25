@@ -1,5 +1,5 @@
 .subSectionHeadline {
-  margin-bottom: 2rem;
+  margin-bottom: $marginContent;
 
   &::after {
     content: '';
@@ -15,7 +15,7 @@
 
 .simpleTeaser {
   max-width: 36rem;
-  margin: 2rem auto;
+  margin: $marginContent auto;
   padding: 1rem;
   text-align: center;
   border: 3px solid $colorSecondary;
@@ -39,5 +39,19 @@
     margin: 0;
     color: $colorPrimary;
     font-size: 1.125rem;
+  }
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: $marginContent 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }

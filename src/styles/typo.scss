@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0 0 1rem;
+  margin: 0 0 $marginContent;
   font-weight: 500;
   color: $colorSecondary;
   line-height: 1.35;
@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 $marginContent;
 }
 
 a {
@@ -74,6 +74,8 @@ a {
 
 ul,
 ol {
+  margin-bottom: $marginContent;
+
   li {
     position: relative;
     margin-bottom: .25rem;
@@ -92,4 +94,11 @@ ol {
       background-size: 100%;
     }
   }
+}
+
+blockquote {
+  position: relative;
+  margin: $marginContent 0;
+  padding-left: 2rem;
+  border-left: 5px solid $colorLight;
 }

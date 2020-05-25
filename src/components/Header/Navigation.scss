@@ -161,6 +161,8 @@
   }
 
   &__list {
+    margin: 0;
+
     @media screen and (min-width: #{$breakpointXl}) {
       padding: 1rem 1.5rem 2rem;
     }

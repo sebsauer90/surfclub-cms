@@ -26,7 +26,7 @@ export const PageTemplate = ({
       <section className="mb">
         <div className="container container__page center mb">
           <SectionHeadline>{title}</SectionHeadline>
-          {description && (<p className="mb">{description}</p>)}
+          {description && (<p>{description}</p>)}
         </div>
         {teaser && teaser.length > 0 && (
           <TeaserBlock items={teaser} />
