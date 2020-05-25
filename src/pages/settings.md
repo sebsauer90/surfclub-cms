@@ -12,6 +12,7 @@ footer: |-
 
   Am Sorpesee 11\
   59846 Sundern
+email: info@surfclub-hachen.de
 ---
 #### Surfclub Hachen-Sorpesee e.V.
 
