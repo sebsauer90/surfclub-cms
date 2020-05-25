@@ -1,5 +1,6 @@
 Todos:
 * Images (Slider)
-* Kalender
+* 404 Page
+* Kalender Filter
 * Custom Blocks
   * Google Map

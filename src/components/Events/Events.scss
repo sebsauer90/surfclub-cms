@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.Events {
+  margin-top: 2rem;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    margin-top: 0;
+  }
+
+  &__empty {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}

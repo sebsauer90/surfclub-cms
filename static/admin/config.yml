@@ -72,6 +72,26 @@ collections:
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Order", name: "order", widget: "number", valueType: "int", default: 1}
 
+  - name: "events"
+    label: "Events"
+    folder: "src/pages/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} - {{title}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Breitensport", value: "Breitensport" }
+          - { label: "Verein", value: "Verein" }
+          - { label: "Allgemein", value: "Allgemein" }
+
   - name: "settings"
     label: "Settings"
     files:

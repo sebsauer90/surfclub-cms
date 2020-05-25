@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.Day {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  line-height: 1;
+
+  &__day {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $colorLight;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      font-size: 6rem;
+    }
+  }
+
+  &__details {
+    padding: 0 0 .4rem .5rem;
+
+    @media screen and (min-width: #{$breakpointMd}) {
+      padding-bottom: .6rem;
+    }
+  }
+
+  &__dayName {
+    padding-bottom: .25rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $colorSecondary;
+  }
+
+  &__month {
+    font-size: 1.125rem;
+    color: $colorPrimary;
+  }
+}

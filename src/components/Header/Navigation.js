@@ -84,6 +84,13 @@ function Navigation({ isOpen, setIsOpen, items }) {
             </div>
           );
         })}
+
+        <Link
+          to="/events"
+          className="Navigation__link"
+          activeClassName="Navigation__link--active">
+          Termine
+        </Link>
       </div>
     </nav>
   );

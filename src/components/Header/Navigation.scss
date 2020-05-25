@@ -57,15 +57,26 @@
   }
 
   &__link {
+    margin-top: 1rem;
     color: $colorDefault;
     text-decoration: none;
     transition: color .15s ease-in-out;;
     font-size: 1.625rem;
 
+    &:first-child {
+      margin-top: 0;
+    }
+
     @media screen and (min-width: #{$breakpointXl}) {
       display: inline-block;
+      margin-top: 0;
+      margin-left: 3.75rem;
       padding: 1rem 0;
       font-size: $defaultFontSizeMd;
+
+      &:first-child {
+        margin-left: 0;
+      }
     }
 
     &:hover {
