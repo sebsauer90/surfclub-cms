@@ -3,7 +3,7 @@ import './TeaserBlock.scss';
 
 function TeaserBlock({ items }) {
   return (
-    <div class="TeaserBlock mb">
+    <div className="TeaserBlock mb">
       <div className="container">
         <ul className="TeaserBlock__list">
           {items.map((item, index) => (

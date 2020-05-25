@@ -3,26 +3,19 @@ import { Link } from 'gatsby';
 import InstagramIcon from '../Icons/InstagramIcon';
 // import FacebookIcon from '../Icons/FacebookIcon';
 import logo from '../../img/logo-surfer.svg';
+import useFooterContent from '../../hooks/Footer';
+import { HTMLContent } from '../Content/Content';
 import './Footer.scss';
 
 function Footer() {
+  const { html } = useFooterContent();
+
   return (
     <footer className="Footer">
       <div className="container">
         <div className="Footer__wrapper">
           <div className="Footer__column">
-          <h4>Surfclub Hachen-Sorpesee e.V.</h4>
-            <p className="mb-sm">
-              Drostestr. 5<br />
-              59846 Sundern<br />
-              Tel. Allgemein 0 29 35 / 43 55<br />
-              Tel. Breitensport 0 29 35 / 45 36
-            </p>
-            <h4>Vereinsheim</h4>
-            <p>
-              Am Sorpesee 11<br />
-              59846 Sundern
-            </p>
+            <HTMLContent content={html} />
           </div>
           <div className="Footer__column Footer__column--social">
             <p>
