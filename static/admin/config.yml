@@ -80,5 +80,4 @@ collections:
         name: "settings"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Footer", name: "body", widget: "markdown", required: false}
+          - {label: "Footer", name: "footer", widget: "markdown", required: false}
