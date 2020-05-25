@@ -1,10 +1,11 @@
 @import "../../styles/variables";
 
 .Filter {
-  margin: 2rem 0;
-  padding: 1rem 1rem .5rem;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  border-radius: .625rem;
+  margin: 2rem -1rem 1rem;
+  padding: 1rem;
+  // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: .625rem;
+  border-bottom-right-radius: .625rem;
   text-align: center;
   background: white;
 
@@ -14,14 +15,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    // padding: 1rem;
   }
 
   &__search {
-    margin-bottom: 2rem;
-    order: 1;
-
+    display: none;
+    
     @media screen and (min-width: #{$breakpointLg}) {
+      display: block;
+      margin-bottom: 2rem;
+      order: 1;
       margin-bottom: 0;
     }
   }
@@ -30,6 +33,7 @@
     margin: 0 .2rem .5rem;
     padding: .625rem 1.5rem;
     font-size: 1rem;
+    font-weight: 700;
 
     &:first-child {
       margin-left: 0;
