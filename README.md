@@ -1,4 +1,6 @@
 Todos:
+* Fix Navigation
+* Fix Viewport
 * Images (Slider)
 * 404 Page
 * Kalender Filter

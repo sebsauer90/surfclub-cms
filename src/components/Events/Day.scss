@@ -9,7 +9,7 @@
   &__day {
     font-size: 4rem;
     font-weight: 700;
-    color: $colorLight;
+    color: $colorMedium;
 
     @media screen and (min-width: #{$breakpointMd}) {
       font-size: 6rem;

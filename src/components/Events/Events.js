@@ -2,23 +2,34 @@ import React from 'react';
 import useEvents from '../../hooks/Events';
 import Day from './Day';
 import Event from './Event';
+import Filter from './Filter';
 import './Events.scss';
 
 function Events() {
-  const events = useEvents();
-
-  if (events === null) {
-    return (
-      <div className="Events">
-        <div className="Events__empty">
-          Zur Zeit gibt es keine Termine.
-        </div>
-      </div>
-    );
-  }
+  const {
+    events,
+    categoryFilter,
+    setCategoryFilter,
+    searchQuery,
+    setSearchQuery,
+    length,
+  } = useEvents();
 
   return (
     <div className="Events">
+      <Filter
+        categoryFilter={categoryFilter}
+        setCategoryFilter={setCategoryFilter}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+      />
+
+      {length === 0 && (
+        <div className="Events__empty">
+          Keine Termine gefunden.
+        </div>
+      )}
+
       {Object.keys(events).map((year) => (
         <div key={year}>
           {Object.keys(events[year]).map((month) => (
