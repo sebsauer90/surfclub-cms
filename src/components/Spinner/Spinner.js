@@ -3,7 +3,7 @@ import './Spinner.scss';
 
 function Spinner() {
   return (
-    <div class="lds-ripple">
+    <div className="lds-ripple">
       <div />
       <div />
     </div>

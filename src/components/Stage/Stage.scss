@@ -49,5 +49,13 @@
     @media screen and (min-width: #{$breakpointMd}) {
       width: 18rem;
     }
+
+    &::after {
+      display: none;
+    }
+
+    img {
+      display: block;
+    }
   }
 }

@@ -4,6 +4,13 @@ module.exports = {
     description: 'Der Surfclub Hachen-Sorpesee e.V. bietet seinen Mitgliedern ein Vereinsheim direkt am Sorpesee in Sundern-Langscheid / Sauerland. Liegewiese, Umkleiden, Vereinsboards werden ebenso geboten, wie ein interessanter Terminkalender.',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-52968631-4",
+        anonymize: true,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {

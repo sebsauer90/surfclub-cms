@@ -5,13 +5,18 @@ const useFooterContent = () => {
     graphql`
       query FooterContent {
         markdownRemark(frontmatter: {templateKey: {eq: "settings-page"}}) {
+          frontmatter {
+            email
+          }
           html
         }
       }
     `
   );
+  const { frontmatter: { email }, html } = markdownRemark;
   return {
-    html: markdownRemark.html,
+    email,
+    html,
   };
 }
 

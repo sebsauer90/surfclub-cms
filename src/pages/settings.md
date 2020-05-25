@@ -1,5 +1,6 @@
 ---
 templateKey: settings-page
+email: info@surfclub-hachen.de
 ---
 #### Surfclub Hachen-Sorpesee e.V.
 

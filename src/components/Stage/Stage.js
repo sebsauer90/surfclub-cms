@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import './Stage.scss';
 import logo from '../../img/logo.svg';
 
@@ -27,7 +27,15 @@ function Stage({ small }) {
     <div className={`Stage mb${small ? ' Stage--small' : ''}`} style={{ backgroundImage: `url(${url})` }}>
       <div className="container">
         <div className="Stage__wrapper">
-          <img className="Stage__logo" src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
+          {small ? (
+            <Link className="Stage__logo" to="/">
+              <img src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
+            </Link>
+          ) : (
+            <div className="Stage__logo">
+              <img src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
+            </div>
+          )}
         </div>
       </div>
     </div>

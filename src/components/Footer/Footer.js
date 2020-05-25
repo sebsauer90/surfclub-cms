@@ -8,7 +8,7 @@ import { HTMLContent } from '../Content/Content';
 import './Footer.scss';
 
 function Footer() {
-  const { html } = useFooterContent();
+  const { html, email } = useFooterContent();
 
   return (
     <footer className="Footer">
@@ -19,7 +19,7 @@ function Footer() {
           </div>
           <div className="Footer__column Footer__column--social">
             <p>
-              <a href="mailto:info@surfclub-hachen.de">info@surfclub-hachen.de</a>
+              <a href={`mailto:${email}`}>{email}</a>
             </p>
             <p className="Footer__links">
               <Link to="/impressum">Impressum</Link><br />

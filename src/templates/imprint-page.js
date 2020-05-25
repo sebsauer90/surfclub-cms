@@ -6,11 +6,13 @@ import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
 import SectionHeadline from '../components/Typo/SectionHeadline';
 import Content, { HTMLContent } from '../components/Content/Content';
+import OptOut from '../components/OptOut/OptOut';
 
 export const ImprintPageTemplate = ({
   content,
   contentComponent,
   title,
+  topic,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -25,6 +27,7 @@ export const ImprintPageTemplate = ({
           <SectionHeadline>{title}</SectionHeadline>
         </div>
         <div className="container imprint">
+          {topic === 'datenschutz' && (<OptOut />)}
           <PostContent content={content} />
         </div>
       </section>
@@ -43,6 +46,7 @@ const ImprintPage = ({ data }) => {
     <Layout>
       <ImprintPageTemplate
         title={post.frontmatter.title}
+        topic={post.frontmatter.topic}
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
@@ -67,6 +71,7 @@ export const imprintPageQuery = graphql`
       html
       frontmatter {
         title
+        topic
       }
     }
   }

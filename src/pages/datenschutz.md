@@ -1,6 +1,7 @@
 ---
 templateKey: imprint-page
 title: Datenschutz
+topic: datenschutz
 ---
 ## Datenschutzerklärung
 

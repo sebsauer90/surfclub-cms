@@ -3,13 +3,13 @@
 .Footer {
   margin-top: 4rem;
   padding-top: $marginSm;
-  padding-bottom: $marginSm;
+  padding-bottom: 1rem;
   background: $colorLight;
 
   @media screen and (min-width: #{$breakpointMd}) {
     margin-top: 6rem;
     padding-top: $marginMd;
-    padding-bottom: $marginMd;
+    padding-bottom: 2rem;
   }
 
   p {
