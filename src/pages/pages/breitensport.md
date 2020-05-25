@@ -9,8 +9,6 @@ order: 9
 ---
 subPageHeadline Sport und Spiel für Kids
 
-„Ich möchte klettern, springen, schaukeln, oder rutschen.“
-
 Abenteuer in der Sporthalle erleben. Wir fördern die Bewegungsfreude von Kindern. Unsere Angebote finden unter qualifizierter Leitung statt. Wir bieten Eltern-Kind-Turnen, Sport und Spiel für Kinder, Spiel und Tanz für Mädchen, Sport und Spiel für Jungen, Trampolinspringen für Kinder.
 
 Alle Angebote finden in der Sporthalle der Grundschule Hachen statt.
