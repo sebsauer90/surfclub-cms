@@ -71,3 +71,14 @@ collections:
           - {label: "Text", name: "text", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Order", name: "order", widget: "number", valueType: "int", default: 1}
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "src/pages/settings.md"
+        label: "Page Settings"
+        name: "settings"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "settings-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Footer", name: "body", widget: "markdown", required: false}

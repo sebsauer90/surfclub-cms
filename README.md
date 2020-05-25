@@ -1,7 +1,8 @@
 Todos:
-* Webacm Spinner
 * Quote styling
 * Images (Slider)
 * Kalender
-* Favicon
 * Analytics
+* Custom Blocks
+  * Google Map
+  * YouTube 

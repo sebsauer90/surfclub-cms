@@ -26,7 +26,7 @@ function Webcam() {
       <div className="Webcam">
         {isLoading && (<Spinner />)}
         {hasError ? (
-          <p>Leider ist die Webcam zur Zeit nicht verfügbar.</p>
+          <p className="Webcam__error">Leider ist die Webcam zur Zeit nicht verfügbar.</p>
         ) : (
           <img
             className="Webcam__image"
