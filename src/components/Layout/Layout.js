@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import 'reset-css';
+import 'slick-carousel/slick/slick.css'; 
 import '../../styles/index.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';

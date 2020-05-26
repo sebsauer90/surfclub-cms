@@ -69,6 +69,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Text", name: "text", widget: "text", required: false}
+      - label: "Image Slider"
+        name: "imageSlider"
+        widget: "list"
+        fields:
+          - {label: Image, name: image, widget: image}
+          - {label: "Image Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Order", name: "order", widget: "number", valueType: "int", default: 1}
 

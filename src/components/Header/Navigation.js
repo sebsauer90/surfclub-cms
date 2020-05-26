@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import './Navigation.scss';
 import { getSectionHeadlines } from '../../cms/customBlocks';
@@ -28,20 +28,6 @@ function Navigation({ isOpen, setIsOpen, items }) {
       }
     }
   };
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      let hash = window.location.hash;
-      hash = hash.replace('#/', '');
-      hash = hash.replace('#', '');
-  
-      if (hash) {
-        setTimeout(() => {
-          scrollToId(hash);
-        }, 250);
-      }
-    }
-  }, []);
 
   return (
     <nav className={`Navigation${isOpen ? ' Navigation--isOpen' : ''}`}>

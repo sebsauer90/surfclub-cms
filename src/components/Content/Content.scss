@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.Content {
+  p > img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .2);
+    border-radius: 1.25rem;
+  }
+}

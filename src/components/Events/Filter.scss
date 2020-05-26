@@ -3,7 +3,6 @@
 .Filter {
   margin: 2rem -1rem 1rem;
   padding: 1rem;
-  // box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: .625rem;
   border-bottom-right-radius: .625rem;
   text-align: center;
@@ -15,7 +14,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding: 1rem;
   }
 
   &__search {

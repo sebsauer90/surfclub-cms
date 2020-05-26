@@ -1,8 +1,10 @@
 body {
-  font-family: $fontFamily;
-  font-size: $defaultFontSizeSm;
   line-height: 1.5;
   hyphens: auto;
+  font-family: $fontFamily;
+  font-size: $defaultFontSizeSm;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
   @media screen and (min-width: #{$breakpointMd}) {
     font-size: $defaultFontSizeMd;

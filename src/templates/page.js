@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
+import Slider from '../components/Slider/Slider';
 import TeaserBlock from '../components/Teaser/TeaserBlock';
 import SectionHeadline from '../components/Typo/SectionHeadline';
 import Content, { HTMLContent } from '../components/Content/Content';
@@ -14,6 +15,7 @@ export const PageTemplate = ({
   description,
   teaser,
   title,
+  imageSlider,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -27,6 +29,14 @@ export const PageTemplate = ({
         <div className="container container__page center mb">
           <SectionHeadline>{title}</SectionHeadline>
           {description && (<p>{description}</p>)}
+          {imageSlider && imageSlider.length > 0 && (
+            <Slider
+              items={imageSlider.map(item => ({
+                ...item,
+                image: item.image.childImageSharp.fluid.src,
+              }))}
+            />
+          )}
         </div>
         {teaser && teaser.length > 0 && (
           <TeaserBlock items={teaser} />
@@ -58,6 +68,7 @@ const Page = ({ data }) => {
         description={post.frontmatter.description}
         teaser={post.frontmatter.teaser}
         title={post.frontmatter.title}
+        imageSlider={post.frontmatter.imageSlider}
         helmet={
           <Helmet titleTemplate="%s | Surfclub Hachen-Sorpesee e.V.">
             <title>{`${post.frontmatter.title}`}</title>
@@ -91,6 +102,15 @@ export const pageQuery = graphql`
         teaser {
           text
           title
+        }
+        imageSlider {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1220, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

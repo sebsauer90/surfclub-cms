@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import parseCustomBlocks from '../../cms/customBlocks';
+import './Content.scss';
 
 export const HTMLContent = ({ content, className }) => {
   const finalContent = parseCustomBlocks(content);
