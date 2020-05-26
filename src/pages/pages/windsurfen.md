@@ -4,8 +4,11 @@ title: Windsurfen
 description: Homespot - Die Sorpetalsperre
 imageSlider:
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+    title: Surfer
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+    title: Surfer
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+    title: Surfer
 order: 10
 ---
 Die in den Jahren 1926 bis 1935 erbaute Sorpetalsperre hat als Überjahresspeicher vor allem die Aufgabe, die anderen Ruhrverbandstalsperren bei der Sicherung der Niedrigwasseraufhöhung der Ruhr zur Wasserversorgung zu unterstützen.
