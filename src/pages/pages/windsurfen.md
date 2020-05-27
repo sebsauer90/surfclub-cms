@@ -1,7 +1,10 @@
 ---
 templateKey: page
 title: Windsurfen
-description: Homespot - Die Sorpetalsperre
+description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+  ultricies nec, pellentesque eu, pretium quis, sem.
 imageSlider:
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
     title: Surfer
