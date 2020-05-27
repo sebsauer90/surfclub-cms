@@ -4,7 +4,7 @@ export const customBlocks = [
   // anchor
   {
     id: 'anchor',
-    label: 'Anchor',
+    label: 'Navigation',
     fields: [{name: 'headline', label: 'Headline', widget: 'string'}],
     pattern: /^[^\n\r]*subPageHeadline ([^\n\r]*)$/,
     htmlPattern: /<p>subPageHeadline (.*?)<\/p>/,

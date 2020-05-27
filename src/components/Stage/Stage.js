@@ -32,9 +32,9 @@ function Stage({ small }) {
               <img src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
             </Link>
           ) : (
-            <div className="Stage__logo">
+            <h1 className="Stage__logo">
               <img src={logo} alt="Surfclub Hachen-Sorpesee e.V. seit 1984" />
-            </div>
+            </h1>
           )}
         </div>
       </div>

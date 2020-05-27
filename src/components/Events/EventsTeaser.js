@@ -11,7 +11,7 @@ function EventsTeaser() {
   return (
     <div className="EventsTeaser">
       <div className="container container__page">
-        <h3 className="EventsTeaser__headline center">Kommende Termine</h3>
+        <h2 className="EventsTeaser__headline center">Kommende Termine</h2>
 
         {length === 0 && (
           <div className="Events__empty">

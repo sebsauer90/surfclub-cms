@@ -40,6 +40,20 @@
 
     .TeaserOutlined {
       border-color: white;
+
+      &:hover {
+        color: $colorDefault;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .2);
+    
+        .ArrowButton {
+          color: white;
+      
+          .ArrowButton__icon {
+            fill: white;
+            transform: translate(.5rem, calc(-50% + .1rem));
+          }
+        }
+      }
     }
 
     .TeaserOutlined__seperator {

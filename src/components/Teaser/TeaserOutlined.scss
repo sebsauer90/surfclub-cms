@@ -5,9 +5,30 @@
   text-align: center;
   border: 3px solid $colorSecondary;
   border-radius: .625rem;
+  color: $colorDefault;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  transition: box-shadow .15s ease-in-out;
 
   @media screen and (min-width: #{$breakpointMd}) {
     padding: 2.5rem 2rem;
+  }
+
+  &:hover {
+    color: $colorDefault;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .2);
+
+    .ArrowButton {
+      color: $colorPrimary;
+  
+      .ArrowButton__icon {
+        fill: $colorPrimary;
+        transform: translate(.5rem, calc(-50% + .1rem));
+      }
+    }
+  }
+
+  &::after {
+    display: none;
   }
 
   &__headline {
