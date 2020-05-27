@@ -1,13 +1,17 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
-import News from '../components/News/News';
 import Stage from '../components/Stage/Stage';
+import News from '../components/News/News';
+import EventsTeaser from '../components/Events/EventsTeaser';
 
 export const IndexPageTemplate = () => (
   <div>
     <Stage />
-    <News />
+    <div className="mb">
+      <News />
+    </div>
+    <EventsTeaser />
   </div>
 );
 

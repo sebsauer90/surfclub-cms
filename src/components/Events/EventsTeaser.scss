@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.EventsTeaser {
+  margin-bottom: -4rem;
+  padding: 3rem 0;
+  background: $colorSecondary;
+  color: white;
+
+  @media screen and (min-width: #{$breakpointMd}) {
+    margin-bottom: -6rem;
+    padding: 5rem 0;
+  }
+
+  &__headline {
+    margin-bottom: .5rem;
+    color: white;
+  }
+
+  &__button {
+    margin-top: 3rem;
+    text-align: center;
+
+    .Button {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .Event {
+    border-color: white;
+  }
+
+  .Day__day,
+  .Day__dayName,
+  .Event__title {
+    color: white;
+  }
+
+  .Day__month,
+  .Event__category {
+    font-weight: 700;
+  }
+}

@@ -11,7 +11,7 @@ function News(props) {
   renderItems = renderItems.filter((item) => currentId ? item.node.id !== currentId : true);
 
   return (
-    <div className="container mb">
+    <div className="container">
       <div className="News">
         {renderItems && renderItems.map(({ node: post }) => (
           <TeaserOutlined

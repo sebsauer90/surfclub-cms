@@ -24,13 +24,14 @@
   }
 
   &__box {
-    margin-bottom: -6rem;
+    margin-bottom: -4rem;
     padding: 3rem 0;
     background: $colorPrimary;
     color: white;
 
     @media screen and (min-width: #{$breakpointMd}) {
-      padding: 5rem 0 2rem;
+      margin-bottom: -6rem;
+      padding: 5rem 0;
     }
 
     h3 {
