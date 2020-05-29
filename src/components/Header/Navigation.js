@@ -1,8 +1,34 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import urlSlug from 'url-slug';
 import './Navigation.scss';
-import { getSectionHeadlines } from '../../cms/customBlocks';
 import CloseIcon from '../Icons/CloseIcon';
+
+const fromBlock = (match) => {
+  return {
+    headline: !match[1] || match[1] === 'undefined' ? '' : match[1],
+  };
+};
+
+function getSectionHeadlines(body) {
+  const regex = RegExp(/^[^\n\r]*subPageHeadline ([^\n\r]*)$/, 'gm');
+  const headlines = [];
+  let matches;
+
+  while ((matches = regex.exec(body)) !== null) {
+    if (matches.index === regex.lastIndex) {
+      regex.lastIndex++;
+    }
+
+    const obj = fromBlock(matches);
+    headlines.push({
+      headline: obj.headline,
+      slug: urlSlug(obj.headline),
+    });
+  }
+
+  return headlines;
+}
 
 function Navigation({ isOpen, setIsOpen, items }) {
   const scrollToId = (id) => {
@@ -38,7 +64,7 @@ function Navigation({ isOpen, setIsOpen, items }) {
       <div className="Navigation__wrapper">
         <Link to="/" className="Navigation__link" activeClassName="Navigation__link--active">Startseite</Link>
         {items.map(({ node }) => {
-          const sections = getSectionHeadlines(node.html);
+          const sections = getSectionHeadlines(node.rawMarkdownBody);
           return (
             <div key={node.id} className="Navigation__item">
               <Link

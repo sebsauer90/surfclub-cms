@@ -1,13 +1,12 @@
-import urlSlug from 'url-slug';
+const urlSlug = require('url-slug');
 
-export const customBlocks = [
+module.exports = [
   // anchor
   {
     id: 'anchor',
     label: 'Navigation',
     fields: [{name: 'headline', label: 'Headline', widget: 'string'}],
     pattern: /^[^\n\r]*subPageHeadline ([^\n\r]*)$/,
-    htmlPattern: /<p>subPageHeadline (.*?)<\/p>/,
     fromBlock: function(match) {
       return {
         headline: !match[1] || match[1] === 'undefined' ? '' : match[1],
@@ -35,7 +34,6 @@ export const customBlocks = [
       {name: 'subline', label: 'Subline', widget: 'string', required: false},
     ],
     pattern: /teaser \$(.*)\$\$(.*)\$\$(.*)\$/,
-    htmlPattern: /<p>teaser \$(.*)\$\$(.*)\$\$(.*)\$<\/p>/,
     fromBlock: function(match) {
       return {
         headline: !match[1] || match[1] === 'undefined' ? '' : match[1],
@@ -63,7 +61,6 @@ export const customBlocks = [
     label: 'Youtube',
     fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
     pattern: /^youtube (\S+)$/,
-    htmlPattern: /<p>youtube (.*?)<\/p>/,
     fromBlock: function(match) {
       return {
         id: match[1]
@@ -92,66 +89,3 @@ export const customBlocks = [
     }
   },
 ];
-
-const htmlBlocks = [
-  // table
-  {
-    id: 'table',
-    htmlPattern: /<table>((.|\n)*)<\/table>/,
-    fromBlock: function(match) {
-      return {
-        table: !match[1] || match[1] === 'undefined' ? '' : match[1],
-      };
-    },
-    toPreview: function(obj) {
-      return (
-        '<div class="table--responsive"><table class="table">' + obj.table + '</table></div>'
-      );
-    }
-  },
-];
-
-function parseCustomBlocks(body) {
-  const blocks = [...customBlocks, ...htmlBlocks];
-  let returnValue = body;
-
-  blocks.forEach((block) => {
-    const regex = RegExp(block.htmlPattern, 'gm');
-    let matches;
-
-    while ((matches = regex.exec(returnValue)) !== null) {
-      if (matches.index === regex.lastIndex) {
-        regex.lastIndex++;
-      }
-
-      const obj = block.fromBlock(matches);
-      returnValue = returnValue.replace(matches[0], block.toPreview(obj));
-    }
-
-    return returnValue;
-  });
-
-  return returnValue;
-}
-
-export function getSectionHeadlines(body) {
-  const regex = RegExp(customBlocks[0].htmlPattern, 'gm');
-  const headlines = [];
-  let matches;
-
-  while ((matches = regex.exec(body)) !== null) {
-    if (matches.index === regex.lastIndex) {
-      regex.lastIndex++;
-    }
-
-    const obj = customBlocks[0].fromBlock(matches);
-    headlines.push({
-      headline: obj.headline,
-      slug: urlSlug(obj.headline),
-    });
-  }
-
-  return headlines;
-}
-
-export default parseCustomBlocks;

@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import parseCustomBlocks from '../../cms/customBlocks';
+// import parseCustomBlocks from '../../cms/customBlocks';
 import './Content.scss';
 
 export const HTMLContent = ({ content, className }) => {
-  const finalContent = parseCustomBlocks(content);
+  // const finalContent = parseCustomBlocks(content);
+  const finalContent = content;
   return (
     <div className={`Content ${className ? className : ''}`} dangerouslySetInnerHTML={{ __html: finalContent }} />
   );

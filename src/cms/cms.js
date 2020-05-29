@@ -6,7 +6,8 @@ import IndexPagePreview from './preview-templates/IndexPagePreview';
 import PagePreview from './preview-templates/PagePreview';
 import WebcamPagePreview from './preview-templates/WebcamPagePreview';
 import Hide from './preview-templates/Hide';
-import { customBlocks } from './customBlocks';
+
+const customBlocks = require('./customBlocks');
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);

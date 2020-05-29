@@ -24,7 +24,7 @@ function Header() {
               frontmatter {
                 title
               }
-              html
+              rawMarkdownBody
             }
           }
         }
