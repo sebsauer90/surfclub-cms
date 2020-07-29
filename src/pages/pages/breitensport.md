@@ -4,15 +4,14 @@ title: Breitensport
 description: Neben den Surfaktivitäten bietet der Surfclub auch ein
   interessantes Breitensportangebot für Flautentage und Nichtsurfer. Details
   dazu erhaltet ihr auf den nachfolgenden Seiten.
-teaser:
-  - title: Ansprechpartner
-    text: |-
-      	
-      Anmeldung und weitere Infos zu den Breitensportangeboten gibt’s bei:
-      Doro Fricke - Tel. 02935-4536
+teaser: []
 order: 9
 ---
 subPageHeadline Sport und Spiel für Kids
+
+
+
+
 
 Abenteuer in der Sporthalle erleben. Wir fördern die Bewegungsfreude von Kindern. Unsere Angebote finden unter qualifizierter Leitung statt. Wir bieten Eltern-Kind-Turnen, Sport und Spiel für Kinder, Spiel und Tanz für Mädchen, Sport und Spiel für Jungen, Trampolinspringen für Kinder.
 
@@ -89,10 +88,14 @@ teaser $Ü50-Fit und aktiv im Wasser$$Wassergymnastik für Sie und Ihn$$Übungsl
 
 teaser $Nordic Walking für Anfänger$$Einführung in das Nordic Walking$$Übungsleiterin: Martina Lübke I Treffen am Parkplatz Goldbach in Tiefenhagen$
 
-teaser $Laufen im Team$$Der Lauftreff für Fortgeschrittene$$Vereinsgelände am Sorpesee$
+teaser $Laufen im Team$$Der Lauftreff für Fortgeschrittene$$jeden Mittwoch 17:45 Uhr bis 18:45 Uhr; Vereinsgelände am Sorpesee$
 
 ### Members only
 
-teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$$
+teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$jeden Freitag von 16:30 Uhr bis 19 Uhr im LSB-Hachen$
 
-teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$$
+teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$jeden Dienstag von 18:00 Uhr bis 20:00 Uhr$
+
+subPageHeadline ÜbungsleiterInnen und Team
+
+![]()
