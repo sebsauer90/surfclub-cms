@@ -1,10 +1,15 @@
 ---
 templateKey: page
 title: Breitensport
-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-  ultricies nec, pellentesque eu, pretium quis, sem.
+description: Neben den Surfaktivitäten bietet der Surfclub auch ein
+  interessantes Breitensportangebot für Flautentage und Nichtsurfer. Details
+  dazu erhaltet ihr auf den nachfolgenden Seiten.
+teaser:
+  - title: Ansprechpartner
+    text: |-
+      	
+      Anmeldung und weitere Infos zu den Breitensportangeboten gibt’s bei:
+      Doro Fricke - Tel. 02935-4536
 order: 9
 ---
 subPageHeadline Sport und Spiel für Kids
@@ -33,12 +38,12 @@ Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jun
 
 ### Inhalte
 
-* Bedrohliche und gewalttätige Situation rechtzeitig zu erkennen und zu vermeiden.
-* Sich auf solche Situationen mental vorzubereiten.
-* Grenzen zu setzen und diese durch ein „NEIN“ auch deutlich zum Ausdruck zu bringen.
-* Eigene Grenzen wahrzunehmen und diese zu akzeptieren.
-* Sich in Notsituationen entsprechend, auch mit körperlichen Mitteln, zu verteidigen.
-* Sich in Konfliktsituationen deeskalierend zu verhalten, durch Förderung der Kommunikations- und Konfliktfähigkeit
+* Bedrohliche und gewalttätige Situation rechtzeitig erkennen und vermeiden.
+* Sich auf solche Situationen mental vorbereiten.
+* Grenzen setzen und diese durch ein „NEIN“ auch deutlich zum Ausdruck bringen.
+* Eigene Grenzen wahrnehmen und diese akzeptieren.
+* Sich in Notsituationen entsprechend, auch mit körperlichen Mitteln, verteidigen.
+* Sich in Konfliktsituationen deeskalierend verhalten, durch Förderung der Kommunikations- und Konfliktfähigkeit
 
 teaser $Jungs mit Köpfchen 6 - 8 Jahre$$$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
