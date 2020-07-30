@@ -85,15 +85,13 @@ Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergüns
 
 ### Alle Kosten auf einen Blick
 
-Du fragst dich welche Kosten auf dich zukommen und welche Mitgliedschaftsart für dich in Frage kommt? Finde hier alle Kosten auf einen Blick:
+Du fragst dich welche Kosten auf dich zukommen und welche Mitgliedschaft für dich in Frage kommt? Finde hier alle Kosten auf einen Blick:
 
 | Mitgliedschaft               | Mitgliedsbeitrag | Aufnahmegebühr (einmalig) |
 | ---------------------------- | ---------------- | ------------------------- |
 | Familie                      | 95 €/a.          | 205 €                     |
 | Einzelmitglied               | 75 €/a.          | 178 €                     |
 | Schüler, Studenten und Azubi | 38 €/a.          | 77 €                      |
-
-
 
 ### Anmeldeformular und Datenschutzerklärung
 
@@ -109,20 +107,28 @@ Lass uns dir gratulieren und die neue Surfer-Generation mit in die Mitgliederlis
 
 subPageHeadline Vorstand
 
+![](/img/vorstand_2017a_kl.jpg)
+
 teaser $Meinolf Fricke$$$$1. Vorsitzender$
 
-teaser $Lutz Siebeck$$undefined$$2. Vorsitzender$
+teaser $Lutz Siebeck$$$$2. Vorsitzender$
 
-teaser $Andreas Großkreutz$$undefined$$Schriftführer$
+teaser $Andreas Großkreutz$$$$Schriftführer$
 
-teaser $Inge Britten$$undefined$$Kassenwartin$
+teaser $Inge Britten$$$$Kassenwartin$
 
-teaser $Dorothee Fricke$$undefined$$Breitensportwartin$
+teaser $Dorothee Fricke$$$$Breitensportwartin$
 
-teaser $Lucas Großkreutz$$undefined$$Jugendleiter$
+teaser $Lucas Großkreutz$$$$Jugendleiter$
 
-teaser $Anja Lübke$$undefined$$erweiterter Vorstand$
+teaser $Anja Lübke$$$$erweiterter Vorstand$
 
-teaser $Andreas Zimmny$$undefined$$erweiterter Vorstand$
+teaser $Andreas Zimmny$$$$erweiterter Vorstand$
 
-teaser $Yannik Fricke$$undefined$$erweiterter Vorstand$
+teaser $Yannik Fricke$$$$erweiterter Vorstand$
+
+subPageHeadline Geschichte
+
+subPageHeadline Satzung
+
+Unsere [Satzung](/img/Surfclub_Satzung_2011.pdf) zum Download
