@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-date: 2020-05-20T15:47:17.794Z
+date: 2020-07-30T15:28:56.552Z
 title: Einschränkungen durch die Corona-Pandemie
 description: >-
   Auch unser Vereinsleben bleibt von der Corona-Pandemie nicht unbetroffen.
