@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-date: 2020-05-20T15:46:49.402Z
-title: Weitere News
-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-  ultricies nec, pellentesque eu, pretium quis, sem.
+date: 2020-07-31T12:58:36.175Z
+title: Surftreff mit Verspätung gestartet
+description: "Der Surftreff findet wieder statt. Ab diesem Jahr beginnen wir
+  jeden Samstag bereits um 11 Uhr. "
 ---
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Nachdem der Sorpesee durch die Stadt wieder für den Vereinssport freigegeben worden ist, können wir auch wieder unseren Surftreff durchführen.
+
+Der Surftreff findet jeden Samstag von 11:00 Uhr bis 13:00 Uhr unter Anleitung unseres Surflehrer-Teams statt.
