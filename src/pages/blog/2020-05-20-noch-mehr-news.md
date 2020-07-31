@@ -2,14 +2,20 @@
 templateKey: blog-post
 date: 2020-07-30T15:28:56.552Z
 title: Einschränkungen durch die Corona-Pandemie
-description: >-
-  Auch unser Vereinsleben bleibt von der Corona-Pandemie nicht unbetroffen.
+description: |-
+  Außergewöhnliche Situationen benötigen außergewöhnliche Maßnahmen.
 
-  Durch mittlerweile herrschenden Lockerungen darf auch unsere Vereinsgelände wieder genutzt werden. Dennoch sind wir dazu angehalten alles Mögliche zu tun, um Infektionen zu vermeiden.
-
-  Solltet ihr aus auf dem Vereinsgelände unterwegs sein, so tragt euch bitte direkt bei Ankunft in der entsprechenden Listen. Diese müssen wir zwecks Nachverfolgung möglicher Infizierter und deren Kontaktpersonen führen.
+  Rückverfolgung von Kontaktpersonen auch am Vereinsheim erforderlich.
 ---
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Die Corona-Pandemie hat die Welt auf den Kopf gestellt.
+
+Um während dieser außergewöhnlichen Situation dennoch ein wenig abschalten zu können, kann unser Vereinsgelände für sportliche Aktivitäten und natürlich zum Surfen auch neben den bestehenden Einschränkungen genutzt werden.
+
+Wichtig ist jedoch, dass ihr euch bei Ankunft sofort in den entsprechenden Listen eintragt, so dass im Fall der Fälle die Nachverfolgbarkeit von Kontaktpersonen Infizierter gegeben ist.
+
+Wir danken euch für euren Einsatz und bleibt Gesund.
+
+Hang Loose, euer Vorstand.
 
 youtube Nj18E10tD8E
 
