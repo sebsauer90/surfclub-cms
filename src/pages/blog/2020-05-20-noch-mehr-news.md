@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-date: 2020-07-30T15:28:56.552Z
+date: 2020-07-31T12:48:23.242Z
 title: Einschränkungen durch die Corona-Pandemie
 description: |-
   Außergewöhnliche Situationen benötigen außergewöhnliche Maßnahmen.
@@ -17,8 +17,4 @@ Wir danken euch für euren Einsatz und bleibt Gesund.
 
 Hang Loose, euer Vorstand.
 
-youtube Nj18E10tD8E
-
->  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-
-Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+![](/img/aha-formel.png)
