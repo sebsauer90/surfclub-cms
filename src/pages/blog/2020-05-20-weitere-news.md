@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-date: 2020-07-31T12:58:36.175Z
+date: 2020-07-31T13:05:24.082Z
 title: Surftreff mit Verspätung gestartet
 description: "Der Surftreff findet wieder statt. Ab diesem Jahr beginnen wir
   jeden Samstag bereits um 11 Uhr. "
