@@ -99,6 +99,10 @@ Der Websitebetreiber bietet Ihnen einen Newsletter an, in welchem er Sie über a
 
 Widerruf und Kündigung: Ihre Einwilligung zum Erhalt des Newsletter können Sie jederzeit widerrufen und somit das Newsletter-Abonnement kündigen. Nach Ihrer Kündigung erfolgt die Löschung Ihre personenbezogenen Daten. Ihre Einwilligung in den Newsletterversand erlischt gleichzeitig. Am Ende jedes Newsletters finden Sie den Link zur Kündigung.
 
+### Windfinder-Einbettung
+
+Auf dieser Webseite ist das Wetter Widget der Windfinder.com GmbH & Co.KG eingebunden. Zur Darstellung der Wetterdaten wird Ihre IP-Adresse an Windfinder.com GmbH & Co.KG übertragen. Weitere personenbezogene Daten werden nicht übermittelt. Ihre IP-Adresse wird von Windfinder.com GmbH & Co.KG aus technischen Gründen protokolliert und nach 7 Tagen gelöscht.                  
+
 ### Rechte des Nutzers
 
 Sie haben als Nutzer das Recht, auf Antrag eine kostenlose Auskunft darüber zu erhalten, welche personenbezogenen Daten über Sie gespeichert wurden. Sie haben außerdem das Recht auf Berichtigung falscher Daten und auf die Verarbeitungseinschränkung oder Löschung Ihrer personenbezogenen Daten. Falls zutreffend, können Sie auch Ihr Recht auf Datenportabilität geltend machen. Sollten Sie annehmen, dass Ihre Daten unrechtmäßig verarbeitet wurden, können Sie eine Beschwerde bei der zuständigen Aufsichtsbehörde einreichen.
