@@ -46,13 +46,11 @@ subPages:
 
       Du bist noch Schüler, Student oder in der Ausbildung? Nutze hierzu die vergünstigte Einzelmitgliedschaft.
 teaser:
-  - title: 1500+ Mitglieder
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-      ligula eget dolor. "
-  - title: 25+ Kurse
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-      ligula eget dolor. "
-  - title: Gegründet 1984
+  - title: Windsurfen im Sauerland
+    text: ""
+  - title: Großes Breitensportangebot
+    text: ""
+  - title: seit 1984 am Sorpesee
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
       ligula eget dolor. "
 order: 8
@@ -77,7 +75,7 @@ Die Mitgliedschaft im Surfclub bringt einige Vorteile für dich mit:
 
 ### Familienmitgliedschaft oder Einzelmitglied?
 
-Der Surfclub ist eine familienfreundlicher Verein durch und durch. Daher hast du auch die Möglichkeit mit deiner ganzen Familie im Verein einzutreten und alle Vorteile der Mitgleidschaft mit deinem Partner und deinen Kindern zu teilen.
+Der Surfclub ist eine familienfreundlicher Verein durch und durch. Daher hast du auch die Möglichkeit mit deiner ganzen Familie im Verein einzutreten und alle Vorteile der Mitgliedschaft mit deinem Partner und deinen Kindern zu teilen.
 
 Oder lebst du mit deinem Partner gemeinsam in einer Wohnung? Nutze auch hier die Familienmitgliedschaft.
 
@@ -123,7 +121,7 @@ teaser $Lucas Großkreutz$$$$Jugendleiter$
 
 teaser $Anja Lübke$$$$erweiterter Vorstand$
 
-teaser $Andreas Zimmny$$$$erweiterter Vorstand$
+teaser $Andreas Zimmny$$"Dr. Board"$$erweiterter Vorstand$
 
 teaser $Yannik Fricke$$$$erweiterter Vorstand$
 
