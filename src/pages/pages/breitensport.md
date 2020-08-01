@@ -9,10 +9,6 @@ order: 9
 ---
 subPageHeadline Sport und Spiel für Kids
 
-
-
-
-
 Abenteuer in der Sporthalle erleben. Wir fördern die Bewegungsfreude von Kindern. Unsere Angebote finden unter qualifizierter Leitung statt. Wir bieten Eltern-Kind-Turnen, Sport und Spiel für Kinder, Spiel und Tanz für Mädchen, Sport und Spiel für Jungen, Trampolinspringen für Kinder.
 
 Alle Angebote finden in der Sporthalle der Grundschule Hachen statt.
@@ -21,17 +17,19 @@ teaser $Die Abenteuerkiddis ab 2 Jahren$$Eltern-Kind-Turnen$$Übungsleiter: Jana
 
 teaser $Die Abenteuerkids ab 4 Jahren$$Bewegung, Spaß und Spiel $$Übungsleiterin: Jana Fricke / Asli Ötüm / Johanna Otte I Sporthalle Grundschule Hachen$
 
-teaser $Hip Hop für Mädchen von 11-13 Jahre$$$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
+teaser $Hip Hop für Mädchen$$ von 11-13 Jahren$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
-teaser $Hip Hop für Mädchen von 8 bis 10 Jahren$$$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
+teaser $Hip Hop für Mädchen$$ von 8 bis 10 Jahren$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
-teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$Showtanz für Mädchen ab 13 Jahre$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
+teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$ab 13 Jahren$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
 
-teaser $Flying Kids ab 6 Jahren$$Trampolinspringen für Kinder$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+teaser $Flying Kids$$Trampolinspringen für Kinder  ab 6 Jahren$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
 
-teaser $Trampolinteens$$Trampolinspringen für Teens ab 11 Jahre$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+teaser $Trampolinteens$$Trampolinspringen für Teens ab 11 Jahren$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
 
-subPageHeadline Selbstbehauptung und Konfliktberatung für Jungs
+subPageHeadline Für Jungs
+
+## Selbstbehauptung / Konfliktberatung für Jungs
 
 Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jungen gestärkt, durch Angstabbau und Stärkung ihres Selbstbewusstseins. Das Wissen um diese Stärken und das Beherrschen von Selbstverteidigungstechniken vermittelt den Jungen ein erhöhtes Selbstbewusstsein, das sie nach außen dokumentieren. Dieses lässt sie selbstsicherer und somit auch „opferuntypischer“ auftreten. Das Training soll auch zu gewaltfreier Konfliktbearbeitung befähigen und das Sozial- und Kontaktverhalten der Jungen fördern.
 
@@ -44,11 +42,13 @@ Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jun
 * Sich in Notsituationen entsprechend, auch mit körperlichen Mitteln, verteidigen.
 * Sich in Konfliktsituationen deeskalierend verhalten, durch Förderung der Kommunikations- und Konfliktfähigkeit
 
-teaser $Jungs mit Köpfchen 6 - 8 Jahre$$$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
+teaser $Jungs mit Köpfchen$$von 6 - 8 Jahren$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
-teaser $Jungs mit Köpfchen 9 - 11 Jahre$$$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
+teaser $Jungs mit Köpfchen$$ von 9 - 11 Jahren$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
-subPageHeadline Selbstbehauptung / Selbstverteidigungsangebote für Mädchen
+subPageHeadline Für Mädchen
+
+## Selbstbehauptung / Selbstverteidigungsangebote für Mädchen
 
 Mädchen, die zu selbstbewussten, Ich- starken und kritischen Persönlichkeiten heranwachsen können, sind nachweislich am besten vor sexueller Gewalt geschützt. Das Kennenlernen der eigenen Gefühle, die Körperwahrnehmung und das richtige Nein- Sagen macht die Mädchen umso selbstbewusster. Mädchen, die so früh wie möglich lernen Gefahren und Gefährdungen zu erkennen, können dann der so genannten Opferrolle entfliehen.
 
@@ -60,15 +60,15 @@ Die Mädchen sollen lernen Grenzen zu setzen und diese durch ein „NEIN “ auc
 
 Im Rahmen der Angebote wird immer ein Elternabend in Zusammenarbeit mit dem Jugendbüro der Stadt Sundern und dem Kriminalkommissariat Vorbeugung Meschede angeboten. Angeleitet werden alle Angebote von der lizenzierten SV/SB Trainerin LSB/NRW Dorothee Fricke.
 
-teaser $Starke Mädchen 6 - 8 Jahre$$$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen$$von 6 - 8 Jahren$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
-teaser $Starke Mädchen 9 - 11 Jahre$$$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen$$von 9 - 11 Jahren$$Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
-teaser $Starke Mädchen 12 - 14 Jahre$$$$Termin: Samstag/Sonntag n.n. 10 Uhr bis 15 Uhr Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
+teaser $Starke Mädchen$$von 12 - 14 Jahren$$Termin: Samstag/Sonntag n.n. 10 Uhr bis 15 Uhr Übungsleiter: Dorothee Fricke und Jana Fricke I Sporthalle Grundschule Hachen$
 
-subPageHeadline Bewegungsangebote für Erwachsene
+subPageHeadline Für Erwachsene
 
-### Only for her
+## Für Sie
 
 teaser $Fit mit Fun$$Aerobicvariationen und Bodyforming für Frauen$$Übungsleiterin: Dorothee Fricke I Sporthalle Grundschule Hachen$
 
@@ -76,23 +76,23 @@ teaser $Aquafitness$$Wassergymnastik für Frauen. Flach- und Tiefenwassertrainin
 
 teaser $Fit und vital - Aktives Training für die ältere Frau$$Moderates Fitnesstraining für ältere Frauen$$Übungsleiterin: Meike Werthschulte / Angelika Dorin I Sporthalle Grundschule Hachen$
 
-teaser $Starke Frauen$$Selbstbehauptung/Selbstverteidigung für Frauen$$$
+teaser $Starke Frauen$$Selbstbehauptung/Selbstverteidigung für Frauen$$Übungsleiterin: Dorothee Fricke I Sporthalle Grundschule Hachen$
 
-### For him and her
+## Für Sie und Ihn
 
-teaser $Fit for Ski für Sie und Ihn$$Skigymnastik für Sie und Ihn$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
+teaser $Fit for Ski$$Skigymnastik für Sie und Ihn$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
 
 teaser $Functional Gym$$Konditions-, Koordinations- und Kräftigungsgymnastik für Sie und Ihn$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
 
-teaser $Ü50-Fit und aktiv im Wasser$$Wassergymnastik für Sie und Ihn$$Übungsleiterin: Annelie Löhr I Lehrschwimmbecken Hachen$
+teaser $Ü50 - Fit und aktiv im Wasser$$Wassergymnastik für Sie und Ihn$$Übungsleiterin: Annelie Löhr I Lehrschwimmbecken Hachen$
 
 teaser $Nordic Walking für Anfänger$$Einführung in das Nordic Walking$$Übungsleiterin: Martina Lübke I Treffen am Parkplatz Goldbach in Tiefenhagen$
 
 teaser $Laufen im Team$$Der Lauftreff für Fortgeschrittene$$jeden Mittwoch 17:45 Uhr bis 18:45 Uhr; Vereinsgelände am Sorpesee$
 
-### Members only
+## **Nur für Mitglieder**
 
-teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$jeden Freitag von 16:30 Uhr bis 19 Uhr im LSB-Hachen$
+teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$jeden Freitag von 16:30 Uhr bis 19:00 Uhr im LSB-Hachen$
 
 teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$jeden Dienstag von 18:00 Uhr bis 20:00 Uhr$
 
