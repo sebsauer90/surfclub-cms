@@ -127,6 +127,8 @@ teaser $Yannik Fricke$$$$erweiterter Vorstand$
 
 subPageHeadline Geschichte
 
+subPageHeadline Partner und Links
+
 subPageHeadline Satzung
 
 Unsere [Satzung](/img/Surfclub_Satzung_2011.pdf) zum Download
