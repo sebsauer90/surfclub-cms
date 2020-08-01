@@ -132,3 +132,5 @@ subPageHeadline Geschichte
 subPageHeadline Satzung
 
 Unsere [Satzung](/img/Surfclub_Satzung_2011.pdf) zum Download
+
+subPageHeadline Kontakt
