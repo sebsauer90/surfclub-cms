@@ -16,7 +16,9 @@ order: 10
 ---
 subPageHeadline Wetter
 
+```javascript
 <script type="text/javascript" src="https://de.windfinder.com/widget/forecast/js/sorpesee_hachen?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=3&show_day=1&show_waves=0"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/sorpesee_hachen?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for Sorpesee / Hachen</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
+```
 
 subPageHeadline Windsurfen lernen
 
