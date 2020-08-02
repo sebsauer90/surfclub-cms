@@ -29,9 +29,9 @@ teaser $Flying Kids$$Trampolinspringen für Kinder ab 6 Jahren$$Übungsleiterin:
 
 teaser $Trampolinteens$$Trampolinspringen für Teens ab 11 Jahren$$Übungsleiterin: Meike Werthschulte I Sporthalle Grundschule Hachen$
 
-subPageHeadline Für Jungs
+subPageHeadline Selbstbehauptung für Jungs
 
-## Selbstbehauptung und Konfliktberatung
+## Selbstbehauptung und Konflikttraining
 
 Die Jungen werden für alltägliche Gewalt sensibilisiert. Hierzu werden die Jungen gestärkt, durch Angstabbau und Stärkung ihres Selbstbewusstseins. Das Wissen um diese Stärken und das Beherrschen von Selbstverteidigungstechniken vermittelt den Jungen ein erhöhtes Selbstbewusstsein, das sie nach außen dokumentieren. Dieses lässt sie selbstsicherer und somit auch „opferuntypischer“ auftreten. Das Training soll auch zu gewaltfreier Konfliktbearbeitung befähigen und das Sozial- und Kontaktverhalten der Jungen fördern.
 
@@ -48,9 +48,9 @@ teaser $Jungs mit Köpfchen$$von 6 bis 8 Jahren$$Übungsleiter: Jana Fricke und 
 
 teaser $Jungs mit Köpfchen$$ von 9 bis 11 Jahren$$Übungsleiter: Jana Fricke und Team I Sporthalle Grundschule Hachen$
 
-subPageHeadline Für Mädchen
+subPageHeadline Selbstbehauptung für Mädchen
 
-## Selbstbehauptung und Selbstverteidigungsangebote
+## Selbstbehauptung und Selbstverteidigung
 
 Mädchen, die zu selbstbewussten, Ich- starken und kritischen Persönlichkeiten heranwachsen können, sind nachweislich am besten vor sexueller Gewalt geschützt. Das Kennenlernen der eigenen Gefühle, die Körperwahrnehmung und das richtige Nein- Sagen macht die Mädchen umso selbstbewusster. Mädchen, die so früh wie möglich lernen Gefahren und Gefährdungen zu erkennen, können dann der so genannten Opferrolle entfliehen.
 
