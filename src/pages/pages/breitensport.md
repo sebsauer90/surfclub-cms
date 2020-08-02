@@ -98,6 +98,6 @@ teaser $Fit in der Muckibude$$Kraft und Ausdauertraining$$jeden Freitag von 16:3
 
 teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$jeden Dienstag von 18:00 Uhr bis 20:00 Uhr$
 
-subPageHeadline ÜbungsleiterInnen und Team
+subPageHeadline Übungsleiter-Team
 
 ![]()
