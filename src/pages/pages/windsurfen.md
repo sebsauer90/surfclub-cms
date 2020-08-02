@@ -22,6 +22,8 @@ subPageHeadline Wetter
 
 subPageHeadline Windsurfen lernen
 
+subPageHeadline SUP - Stand Up Paddling
+
 subPageHeadline Surflehrer-Team
 
 subPageHeadline Regeln
