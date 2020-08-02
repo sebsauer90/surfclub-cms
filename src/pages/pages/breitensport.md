@@ -19,6 +19,8 @@ teaser $Die Abenteuerkids$$Bewegung, Spaß und Spiel ab 4 Jahren$$Übungsleiteri
 
 teaser $Hip Hop für Mädchen$$ von 11 bis 13 Jahren$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
+![](/img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg)
+
 teaser $Hip Hop für Mädchen$$ von 8 bis 10 Jahren$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
 teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$ab 13 Jahren$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
