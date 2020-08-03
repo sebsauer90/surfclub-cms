@@ -8,11 +8,11 @@ description: "Mit dem Wind über das Wasser fliegen und dabei die Gesetze der
   jeder vom Kind bis zum Senior auf dem Windsurfboard über das Wasser gleiten
   und mit den Elementen spielen. "
 teaser:
+  - title: Faszination Windsurfen
+    text: Über das Wasser fliegen, den Alltag vergessen
   - title: Grenzen suchen und Grenzen überwinden
     text: '"An die eigenen Grenzen gehen, mit dem Wind und Wasser kämpfen - das ist
       der Reiz beim Windsurfen"'
-  - title: Faszination Windsurfen
-    text: Über das Wasser fliegen, den Alltag vergessen
   - text: '"Von Jung bis Alt - Surf-Lifestyle erleben"'
     title: SUP - Stand Up Paddling
 imageSlider:
