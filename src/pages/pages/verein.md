@@ -125,7 +125,24 @@ teaser $Andreas Zimmny$$"Dr. Board"$$erweiterter Vorstand$
 
 teaser $Yannik Fricke$$$$erweiterter Vorstand$
 
-subPageHeadline Geschichte
+subPageHeadline Vereinsgeschichte
+
+* 1982 - 1. Windsurfregatta "Fe-Da-Cup" auf dem Sorpesee
+
+* 1984 - Gründung des Surfclub Hachen-Sorpesee e.V. in "Feldmanns Hütte"
+         Offizielle Abkürzung des Vereins "SCHS"
+* 1985 - Mitgliederzahl beträgt 20 Personen
+
+Der RTV (heute Ruhrverband) stellt das Grundstück neben ihrem Bootshaus als Clubgelände zur Verfügung
+
+* 1987 - Aufstellen eines Containers als provisorisches Clubheim
+* 1989 - Erstellung des Vereinswappens
+* 1989 - 1. Sieurlänner Frühlingsnacht
+* 1993 - Bau des Vereinsheims
+* 1994 - Entstehung der Breitensportabteilung
+* 2007 - Anbau des Vereinsheims
+* 2009 - Ausweitung der Breitensportabteilung auf 27 Bewegungsangebote
+* 2009 - Anstieg der Mitgliederzahl auf über 400 Mitglieder
 
 subPageHeadline Partner und Links
 
