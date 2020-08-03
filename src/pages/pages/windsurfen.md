@@ -1,19 +1,14 @@
 ---
 templateKey: page
 title: Windsurfen & SUP
-description: '"An die eigenen Grenzen gehen, mit dem Wind und Wasser kämpfen -
-  das ist der Reiz beim Windsurfen"'
+description: >-
+  Faszination Windsurfen - 
+
+  Mit dem Wind über das Wasser fliegen und dabei die Gesetze der Schwerkraft vergessen. Eins sein mit dem Board und dem Segel und den Rausch der Geschwindigkeit spüren. Windsurfen ist ein ganz besonderer Sport mit großer Faszination. Es bietet ein intensives Naturerlebnis und dabei kann jeder vom Kind bis zum Senior auf dem Windsurfboard über das Wasser gleiten und mit den Elementen spielen. 
 teaser:
   - title: Grenzen suchen und Grenzen überwinden
-    text: >-
-      Der Sorpesee bietet ideale Windsurfbedingungen.
-
-      Unser Vereinsheim liegt direkt am wunderschönen Sorpesee.
-
-      Wir bieten alle Mitgliedern die Möglichkeit das vereinseigene Material zu nutzen. Im Brettlager können auch die eigenen Boards und Riggs gelagert werden.
-
-
-      Sollte einmal kein Wind sind, so können unsere modernen SUP-Boards zu einem gemütlichen Paddel-Ausflug auf der Sorpe genutzt werden.  Die schönen, blauen Buchten bieten so einige Überraschungen. Vielleicht könnt auch ihr bald schon die Sorpe-Schildkröten entdecken
+    text: '"An die eigenen Grenzen gehen, mit dem Wind und Wasser kämpfen - das ist
+      der Reiz beim Windsurfen"'
 imageSlider:
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
     title: Surfer
