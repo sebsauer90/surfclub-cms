@@ -42,7 +42,7 @@ Unsere Boards bieten für Anfänger ein hohes Maß an Kippstabilität, was es eu
 
 teaser $Windsurftraining und Windsurfkurse$$jeden Samstag von 11:00 Uhr bis 13:00 Uhr$$Trainer: Surflehrer-Team | Treffpunkt: Vereinsgelände am Sorpesee$
 
-Unsere beim Deutschen Segler Verband qualifizierten und regelmäßig fortgebildeten Surflehrer werden euch die grundlegenden Techniken des Windsurfens gerne beibringen, so dass ihr nach kurzer Zeit das Board sicher bei leichtem Wind steuern könnt.Wir sind berechtigt die offizielle DSV-Windsurflizenz auszustellen. 
+Unsere beim Deutschen Segler Verband qualifizierten und regelmäßig fortgebildeten Surflehrer werden euch die grundlegenden Techniken des Windsurfens gerne beibringen, so dass ihr nach kurzer Zeit das Board sicher bei leichtem Wind steuern könnt. Wir sind berechtigt die offizielle DSV-Windsurflizenz auszustellen. 
 
 Die richtige Verwendung von Fußschlaufen und Trapez wird in den Trainings vermittelt. Auch zeigen euch die Surflehrer gerne Freestylemanöver.
 
