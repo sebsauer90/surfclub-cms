@@ -125,9 +125,9 @@ teaser $Yannik Fricke$$$$erweiterter Vorstand$
 subPageHeadline Vereinsgeschichte
 
 * 1982 - 1. Windsurfregatta "Fe-Da-Cup" auf dem Sorpesee
-
 * 1984 - Gründung des Surfclub Hachen-Sorpesee e.V. in "Feldmanns Hütte"
-         Offizielle Abkürzung des Vereins "SCHS"
+
+  Offizielle Abkürzung des Vereins "SCHS"
 * 1985 - Mitgliederzahl beträgt 20 Personen
 
 Der RTV (heute Ruhrverband) stellt das Grundstück neben ihrem Bootshaus als Clubgelände zur Verfügung
