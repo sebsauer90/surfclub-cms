@@ -48,8 +48,7 @@ teaser:
   - title: Großes Breitensportangebot
     text: ""
   - title: seit 1984 am Sorpesee
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-      ligula eget dolor. "
+    text: ""
 order: 8
 ---
 subPageHeadline Mitglied werden
