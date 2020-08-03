@@ -1,10 +1,19 @@
 ---
 templateKey: page
 title: Windsurfen & SUP
-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-  ultricies nec, pellentesque eu, pretium quis, sem.
+description: '"An die eigenen Grenzen gehen, mit dem Wind und Wasser kämpfen -
+  das ist der Reiz beim Windsurfen"'
+teaser:
+  - title: Grenzen suchen und Grenzen überwinden
+    text: >-
+      Der Sorpesee bietet ideale Windsurfbedingungen.
+
+      Unser Vereinsheim liegt direkt am wunderschönen Sorpesee.
+
+      Wir bieten alle Mitgliedern die Möglichkeit das vereinseigene Material zu nutzen. Im Brettlager können auch die eigenen Boards und Riggs gelagert werden.
+
+
+      Sollte einmal kein Wind sind, so können unsere modernen SUP-Boards zu einem gemütlichen Paddel-Ausflug auf der Sorpe genutzt werden.  Die schönen, blauen Buchten bieten so einige Überraschungen. Vielleicht könnt auch ihr bald schon die Sorpe-Schildkröten entdecken
 imageSlider:
   - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
     title: Surfer
@@ -14,11 +23,11 @@ imageSlider:
     title: Surfer
 order: 10
 ---
+
+
 subPageHeadline Wetter
 
-```javascript
-<script type="text/javascript" src="https://de.windfinder.com/widget/forecast/js/sorpesee_hachen?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=3&show_day=1&show_waves=0"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/sorpesee_hachen?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for Sorpesee / Hachen</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
-```
+`<script type="text/javascript" src="https://de.windfinder.com/widget/forecast/js/sorpesee_hachen?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&days=3&show_day=1&show_waves=0"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/sorpesee_hachen?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for Sorpesee / Hachen</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>`
 
 subPageHeadline Windsurfen lernen
 
