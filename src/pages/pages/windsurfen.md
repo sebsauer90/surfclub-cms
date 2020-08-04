@@ -70,7 +70,7 @@ Beim SUP-Surfen wird das Paddel zusätzlich zum Steuern des Boards und zur Unter
 
 SUP-Boards können allgemein in Hardboards und aufblasbare Boards (inflatableSUP/iSUP) unterschieden werden. Der Surfclub stellt den Mitgliedern beide Varianten zur Verfügung.
 
-teaser $SUP-Surfing erlegen$$jeden Samstag von 11:00 Uhr bis 13:00 Uhr; nach Absprache$$Trainer: Surflehrer-Team | Treffpunkt: Vereinsgelände am Sorpesee$
+teaser $SUP-Surfing erlernen$$jeden Samstag von 11:00 Uhr bis 13:00 Uhr; nach Absprache$$Trainer: Surflehrer-Team | Treffpunkt: Vereinsgelände am Sorpesee$
 
 Unsere Surflehrer helfen euch gerne bei der Einführung in das Stand-Up-Paddling.
 
