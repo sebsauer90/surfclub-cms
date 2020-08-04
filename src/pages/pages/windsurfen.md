@@ -52,13 +52,41 @@ Mit dem clubeigenen Elektroboot werden die Trainings begleitet, so dass ihr jede
 
 subPageHeadline SUP - Stand Up Paddling
 
-<!--StartFragment-->
+Stand-Up-Paddling(SUP), auch Stehpaddeln genannt, ist eine Wassersportart, bei der ein Sportler aufrecht auf einem schwimmfähigen Board (SUP-Board) steht und mit einem Stechpaddel paddelt. 
 
-Stand-Up-Paddling(SUP),auchStehpaddelngenannt, ist eineWassersportart, bei der ein Sportler aufrecht aufeinem schwimmfähigen Board (SUP-Board) steht und mit einemStechpaddelpaddelt.TechnikDer Sportler steht aufrecht auf dem SUP-Board undpaddeltmit einem Stechpaddel.Dabei wird die Seite, auf der gepaddelt wird, regelmäßig gewechselt. Der BasisPaddelschlag kann in drei Abschnitte eingeteilt werden1.Paddeleintauchphase2.Paddelzugphase3.Paddelrückholphase.Beim SUP-Surfen wird das Paddel zusätzlich zum Steuern des Boards und zurUnterstützung der Balance eingesetzt.BoardSUP-Boards können allgemein in Hardboards und aufblasbare Boards (inflatableSUP/iSUP) unterschieden werden. Der Surfclub stellt den Mitgliedern beideVarianten zur Verfügung.Training / Kurse >Surftreff samstags 11 Uhr -13 UhrUnsere Surflehrer helfen euch gerne bei der Einführung in das Stand-Up-Paddling.-Transport zum Wasser-Aufstehtechniken-Paddeltechniken-SicherheitseinweisungSicherheitStand-Up-Paddeln ist ein Low-Impact-Sport, also ein Sport mit ganz niedrigemVerletzungsrisiko. Wichtig aber: Ihr müsst schwimmen können und allgemein fit sein,denn es ist eben doch ein Sport, bei dem alle Muskelgruppen in Bewegung kommen.
+#### Technik
 
+Der Sportler steht aufrecht auf dem SUP-Board und paddelt mit einem Stechpaddel. Dabei wird die Seite, auf der gepaddelt wird, regelmäßig gewechselt. Der Basis Paddelschlag kann in drei Abschnitte eingeteilt werden:
 
+1. Paddeleintauchphase
 
-<!--EndFragment-->
+2. Paddelzugphase
+
+3. Paddelrückholphase.
+
+Beim SUP-Surfen wird das Paddel zusätzlich zum Steuern des Boards und zur Unterstützung der Balance eingesetzt.
+
+#### Board
+
+SUP-Boards können allgemein in Hardboards und aufblasbare Boards (inflatableSUP/iSUP) unterschieden werden. Der Surfclub stellt den Mitgliedern beide Varianten zur Verfügung.
+
+teaser $SUP-Surfing erlegen$$jeden Samstag von 11:00 Uhr bis 13:00 Uhr; nach Absprache$$Trainer: Surflehrer-Team | Treffpunkt: Vereinsgelände am Sorpesee$
+
+Unsere Surflehrer helfen euch gerne bei der Einführung in das Stand-Up-Paddling.
+
+\-Transport zum Wasser
+
+\-Aufstehtechniken
+
+\-Paddeltechniken
+
+\-Sicherheitseinweisung
+
+#### Sicherheit
+
+Stand-Up-Paddeln ist ein Low-Impact-Sport, also ein Sport mit ganz niedrigem Verletzungsrisiko.
+
+**Wichtig:** Ihr müsst schwimmen können und allgemein fit sein, denn es ist eben doch ein Sport, bei dem alle Muskelgruppen in Bewegung kommen.
 
 subPageHeadline Surflehrer-Team
 
