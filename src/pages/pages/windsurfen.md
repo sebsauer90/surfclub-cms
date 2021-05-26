@@ -16,11 +16,11 @@ teaser:
   - text: '"Von Jung bis Alt - Surf-Lifestyle erleben"'
     title: SUP - Stand Up Paddling
 imageSlider:
-  - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+  - image: /img/platzhalter.png
     title: Surfer
-  - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+  - image: /img/platzhalter.png
     title: Surfer
-  - image: /img/csm_03_windsurfer_andere_content_header_2545x1254_3_4f0319cc6b.jpg
+  - image: /img/platzhalter.png
     title: Surfer
 order: 10
 ---
