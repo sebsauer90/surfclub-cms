@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../../components/Layout/Layout';
 import Stage from '../../components/Stage/Stage';
 import SectionHeadline from '../../components/Typo/SectionHeadline';
-// import EventsComponent from '../../components/Events/Events';
+import EventsComponent from '../../components/Events/Events';
 
 const Events = () => (
   <>
@@ -15,9 +15,9 @@ const Events = () => (
         <div className="container center">
           <SectionHeadline>Termine</SectionHeadline>
         </div>
-        {/* <div className="container">
+        <div className="container">
           <EventsComponent />
-        </div> */}
+        </div>
       </section>
     </Layout>
   </>

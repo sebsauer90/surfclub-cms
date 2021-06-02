@@ -2,14 +2,14 @@
 
 .Event {
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: .5rem;
   border: 3px solid $colorSecondary;
   border-radius: .625rem;
 
   @media screen and (min-width: #{$breakpointMd}) {
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
   }
 
   &__category {

@@ -2,7 +2,7 @@ import React from 'react';
 import './Event.scss';
 
 function Event({ data }) {
-  const { frontmatter: { title, category, location }, time } = data;
+  const { title, category, location, time } = data;
 
   return (
     <div className="Event">

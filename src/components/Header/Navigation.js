@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
 import urlSlug from 'url-slug';
 import './Navigation.scss';
@@ -32,10 +32,9 @@ function getSectionHeadlines(body) {
 
 function Navigation({ isOpen, setIsOpen, items }) {
   const scrollToId = (id) => {
-    const node = document.getElementById(id);
-  
-    if (typeof window !== 'undefined' && node) {
-      const top = node.getBoundingClientRect().top;
+    if (typeof window !== 'undefined' && document.getElementById(id)) {
+      const node = document.getElementById(id);
+      const top = node.getBoundingClientRect().top - 100;
       window.scroll({
         top, 
         left: 0, 
@@ -56,6 +55,18 @@ function Navigation({ isOpen, setIsOpen, items }) {
       }
     }
   };
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash;
+      if (hash) {
+        setTimeout(() => {
+          scrollToId(hash.replace('#', ''));
+        }, 0);
+      }
+      window.location.hash = '';
+    }
+  }, [])
 
   return (
     <nav className={`Navigation${isOpen ? ' Navigation--isOpen' : ''}`}>
@@ -82,13 +93,13 @@ function Navigation({ isOpen, setIsOpen, items }) {
                     {sections.map(({ slug, headline }) => {
                       return (
                         <li key={slug} className="SubNavigation__item">
-                          <a
+                          <Link
                             className="SubNavigation__link"
-                            href={`${node.fields.slug}#${slug}`}
+                            to={`${node.fields.slug}#${slug}`}
                             onClick={(e) => handleSublinkClick(e, node.fields.slug, slug)}
                           >
                             {headline}
-                          </a>
+                          </Link>
                         </li>
                       );
                     })}

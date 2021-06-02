@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout/Layout';
 import Stage from '../components/Stage/Stage';
 import News from '../components/News/News';
-// import EventsTeaser from '../components/Events/EventsTeaser';
+import EventsTeaser from '../components/Events/EventsTeaser';
 
 export const IndexPageTemplate = () => (
   <div>
@@ -11,7 +11,7 @@ export const IndexPageTemplate = () => (
     <div className="mb">
       <News />
     </div>
-    {/* <EventsTeaser /> */}
+    <EventsTeaser />
   </div>
 );
 

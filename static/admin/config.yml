@@ -90,11 +90,13 @@ collections:
       - label: "Termine"
         name: "events"
         widget: "list"
+        add_to_top: true
+        summary: '{{fields.title}} {{fields.date}}'
         fields:
           - {label: "Date", name: "date", widget: "datetime"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Location", name: "location", widget: "string"}
-          - {label: "Duration", name: "duration", widget: "string"}
+          - {label: "Duration", name: "duration", widget: "string", hint: "Dauer mit Zeitangabe, bspw. \"ca. 2 Stunden\""}
           - label: "Category"
             name: "category"
             widget: "select"

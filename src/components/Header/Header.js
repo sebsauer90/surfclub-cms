@@ -32,7 +32,6 @@ function Header() {
   `);
 
   const handleOpen = () => {
-    console.log('test');
     if (typeof window !== 'undefined') {
       const action = !isOpen ? 'add' : 'remove';
       document.body.classList[action]('body--navigation-open');

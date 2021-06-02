@@ -3,17 +3,13 @@
 .Day {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   line-height: 1;
 
   &__day {
     font-size: 4rem;
     font-weight: 700;
     color: $colorMedium;
-
-    @media screen and (min-width: #{$breakpointMd}) {
-      font-size: 6rem;
-    }
   }
 
   &__details {
