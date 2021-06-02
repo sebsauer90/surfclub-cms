@@ -82,21 +82,25 @@ collections:
     label: "Events"
     folder: "src/pages/events"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{date}} - {{title}}"
+    slug: "{{templateKey}}"
+    summary: "{{templateKey}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Duration", name: "duration", widget: "string"}
-      - label: "Category"
-        name: "category"
-        widget: "select"
-        options:
-          - { label: "Breitensport", value: "Breitensport" }
-          - { label: "Verein", value: "Verein" }
-          - { label: "Allgemein", value: "Allgemein" }
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "Termine"}
+      - label: "Termine"
+        name: "events"
+        widget: "list"
+        fields:
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Location", name: "location", widget: "string"}
+          - {label: "Duration", name: "duration", widget: "string"}
+          - label: "Category"
+            name: "category"
+            widget: "select"
+            options:
+              - { label: "Breitensport", value: "Breitensport" }
+              - { label: "Verein", value: "Verein" }
+              - { label: "Allgemein", value: "Allgemein" }
 
   - name: "settings"
     label: "Settings"

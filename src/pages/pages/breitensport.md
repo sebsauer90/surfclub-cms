@@ -19,8 +19,6 @@ teaser $Die Abenteuerkids$$Bewegung, Spaß und Spiel ab 4 Jahren$$Übungsleiteri
 
 teaser $Hip Hop für Mädchen$$ von 11 bis 13 Jahren$$ Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
-![](/img/platzhalter.png)
-
 teaser $Hip Hop für Mädchen$$ von 8 bis 10 Jahren$$Übungsleiterin: Johanna Otte I Sporthalle Grundschule Hachen$
 
 teaser $Diamond Dance-Crew - Der Showtanz für Mädchen$$ab 13 Jahren$$Übungsleiterin: Tatjana Sauer I Sporthalle Grundschule Hachen$
@@ -100,4 +98,4 @@ teaser $Wellness und Entspannung Sauna$$Gemeinsames Schwitzen für Sie und Ihn$$
 
 subPageHeadline Übungsleiter-Team
 
-![]()
+Hier findet ihr demnächst unser Übungsleiter-Team.

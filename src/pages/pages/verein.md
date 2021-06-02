@@ -142,8 +142,8 @@ Der RTV (heute Ruhrverband) stellt das Grundstück neben ihrem Bootshaus als Clu
 
 subPageHeadline Partner und Links
 
+Hier findet ihr demnächst unsere Partner und Links.
+
 subPageHeadline Satzung
 
 Unsere [Satzung](/img/Surfclub_Satzung_2011.pdf) zum Download
-
-subPageHeadline Kontakt

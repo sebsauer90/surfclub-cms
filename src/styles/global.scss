@@ -1,6 +1,7 @@
 body {
   line-height: 1.5;
   hyphens: auto;
+  padding-top: 6rem;
   font-family: $fontFamily;
   font-size: $defaultFontSizeSm;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +9,10 @@ body {
 
   @media screen and (min-width: #{$breakpointMd}) {
     font-size: $defaultFontSizeMd;
+  }
+
+  &.body--navigation-open {
+    overflow: hidden;
   }
 }
 

@@ -40,6 +40,10 @@
 
     @media screen and (min-width: #{$breakpointXl}) {
       padding: 0 2rem;
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
     }
 
     &::before {
@@ -48,6 +52,14 @@
 
     &:not(:last-child) {
       margin-bottom: 1rem;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 2rem 0 0;
     }
   }
 }

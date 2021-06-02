@@ -9,7 +9,7 @@ function TeaserBlock({ items }) {
           {items.map((item, index) => (
             <li key={index} className="TeaserBlock__item">
               <h3>{item.title}</h3>
-              <p>{item.text}</p>
+              {item.text && <p>{item.text}</p>}
             </li>
           ))}
         </ul>

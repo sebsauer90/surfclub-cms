@@ -31,17 +31,26 @@ function Header() {
       }
   `);
 
+  const handleOpen = () => {
+    console.log('test');
+    if (typeof window !== 'undefined') {
+      const action = !isOpen ? 'add' : 'remove';
+      document.body.classList[action]('body--navigation-open');
+    }
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="Header">
       <div className="Header__wrapper container">
         <ButtonInterLink to="/webcam">Webcam</ButtonInterLink>
-        <Navigation isOpen={isOpen} setIsOpen={setIsOpen} items={edges} />
+        <Navigation isOpen={isOpen} setIsOpen={handleOpen} items={edges} />
 
         <div className="Social">
           {/* <a className="Social__link" href="#"><FacebookIcon className="Social__icon" /></a> */}
           <a className="Social__link" href="https://www.instagram.com/surfclub_hachen_sorpesee/?hl=de"><InstagramIcon className="Social__icon" /></a>
 
-          <button className="NavigationTrigger" onClick={() => setIsOpen(!isOpen)}>
+          <button className="NavigationTrigger" onClick={handleOpen}>
             <BarsIcon className="NavigationTrigger__icon" />
           </button>
         </div>

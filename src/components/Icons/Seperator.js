@@ -10,7 +10,7 @@ function SvgComponent(props) {
       xmlSpace="preserve"
       {...props}
     >
-      <style>{".prefix__st0{fill:#ef485b}"}</style>
+      <style>{".prefix__st0{fill:#ef8348}"}</style>
       <path
         id="prefix__Pfad_15"
         className="prefix__st0"
