@@ -29,9 +29,10 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges;
+    const temaplteBlackList = ['settings-page', 'event'];
 
     posts.forEach((edge) => {
-      if (edge.node.frontmatter.templateKey !== 'settings-page' && edge.node.frontmatter.templateKey !== 'event') {
+      if (!temaplteBlackList.includes(edge.node.frontmatter.templateKey)) {
         const id = edge.node.id;
         createPage({
           path: edge.node.fields.slug,

@@ -82,10 +82,11 @@ collections:
     label: "Events"
     folder: "src/pages/events"
     create: true
-    slug: "{{templateKey}}"
-    summary: "{{templateKey}}"
+    slug: "{{name}}"
+    summary: "{{name}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "Termine"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
+      - {label: "Template Key", name: "name", widget: "hidden", default: "Termine"}
       - label: "Termine"
         name: "events"
         widget: "list"
