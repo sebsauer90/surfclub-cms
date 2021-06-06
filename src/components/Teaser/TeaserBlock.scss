@@ -1,12 +1,12 @@
 @import "../../styles/variables";
 
 .TeaserBlock {
-  padding: 3rem 0;
+  padding: 3rem 0 1rem;
   position: relative;
   background: $colorLight;
 
   @media screen and (min-width: #{$breakpointMd}) {
-    padding: 5rem 0;
+    padding: 5rem 0 3rem;
   }
 
   &::after {
@@ -35,23 +35,16 @@
 
   &__item {
     max-width: 30rem;
+    margin-bottom: 2rem;
     padding: 0 1rem;
     text-align: center;
 
     @media screen and (min-width: #{$breakpointXl}) {
       padding: 0 2rem;
-
-      &:not(:last-child) {
-        margin-bottom: 0;
-      }
     }
 
     &::before {
       display: none;
-    }
-
-    &:not(:last-child) {
-      margin-bottom: 1rem;
     }
 
     h3 {

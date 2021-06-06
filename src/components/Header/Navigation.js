@@ -34,7 +34,8 @@ function Navigation({ isOpen, setIsOpen, items }) {
   const scrollToId = (id) => {
     if (typeof window !== 'undefined' && document.getElementById(id)) {
       const node = document.getElementById(id);
-      const top = node.getBoundingClientRect().top - 100;
+      const top = node.offsetTop - 100;
+
       window.scroll({
         top, 
         left: 0, 
@@ -65,6 +66,7 @@ function Navigation({ isOpen, setIsOpen, items }) {
         }, 0);
       }
       window.location.hash = '';
+      document.body.classList.remove('body--navigation-open');
     }
   }, [])
 
